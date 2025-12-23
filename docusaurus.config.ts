@@ -8,12 +8,12 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://emersonbraun.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/',
+  baseUrl: '/language-comparison/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-org',
+  organizationName: 'EmersonBraun',
   projectName: 'language-comparison',
 
   onBrokenLinks: 'throw',
@@ -51,7 +51,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/EmersonBraun/comparison/tree/main/',
+          editUrl: 'https://github.com/EmersonBraun/language-comparison/tree/main/',
         },
         blog: false,
         theme: {

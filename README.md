@@ -12,7 +12,7 @@ This Language Comparison was developed to be your companion during programming l
 
 ## 🌐 Online Access
 
-The site is available at: [Your GitHub Pages URL]
+The site is available at: https://emersonbraun.github.io/language-comparison/
 
 ## 🚀 Technology
 
