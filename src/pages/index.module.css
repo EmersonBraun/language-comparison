@@ -1,0 +1,93 @@
+/**
+ * CSS files with the .module.css extension will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.section {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.sectionAlt {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+@media screen and (max-width: 996px) {
+  .section {
+    padding: 2rem 0;
+  }
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-heading-color);
+}
+
+.sectionDescription {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.contributionList,
+.ebookList {
+  text-align: left;
+  display: inline-block;
+  margin: 1.5rem 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.contributionList li,
+.ebookList li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  color: var(--ifm-color-content-secondary);
+}
+
+.contributionList li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--ifm-color-primary);
+  font-weight: bold;
+}
+
+.ebookList li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.trustedBy {
+  font-size: 0.9rem;
+  color: var(--ifm-color-content-secondary);
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+

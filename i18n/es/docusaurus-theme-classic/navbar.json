@@ -1,0 +1,12 @@
+{
+  "title": {
+    "message": "Comparación de Lenguajes",
+    "description": "El título en la barra de navegación"
+  },
+  "item.label.Docs": {
+    "message": "Documentación",
+    "description": "Elemento de la barra de navegación con etiqueta Documentación"
+  }
+}
+
+

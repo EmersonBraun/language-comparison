@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Próximo",
+    "description": "O label para a versão atual"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Começando",
+    "description": "O label para a categoria Começando na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.getting-started": {
+    "message": "Começando",
+    "description": "O label para o documento getting-started na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.variables-types": {
+    "message": "Variáveis e Tipos",
+    "description": "O label para o documento variables-types na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.conditionals": {
+    "message": "Condicionais",
+    "description": "O label para o documento conditionals na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.loops": {
+    "message": "Loops",
+    "description": "O label para o documento loops na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.functions": {
+    "message": "Funções",
+    "description": "O label para o documento functions na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.arrays": {
+    "message": "Arrays",
+    "description": "O label para o documento arrays na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.strings": {
+    "message": "Strings",
+    "description": "O label para o documento strings na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.objects-structs": {
+    "message": "Objetos e Structs",
+    "description": "O label para o documento objects-structs na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.error-handling": {
+    "message": "Tratamento de Erros",
+    "description": "O label para o documento error-handling na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.classes-oop": {
+    "message": "Classes e OOP",
+    "description": "O label para o documento classes-oop na sidebar tutorialSidebar"
+  }
+}

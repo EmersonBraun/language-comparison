@@ -1,0 +1,24 @@
+{
+  "id": "loops",
+  "title": "Loops",
+  "description": "Loops allow you to execute code repeatedly. Here's how different languages handle for loops, while loops, and iteration.",
+  "source": "@site/docs/loops.md",
+  "sourceDirName": ".",
+  "slug": "/loops",
+  "permalink": "/docs/loops",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/loops.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conditionals",
+    "permalink": "/docs/conditionals"
+  },
+  "next": {
+    "title": "Functions",
+    "permalink": "/docs/functions"
+  }
+}

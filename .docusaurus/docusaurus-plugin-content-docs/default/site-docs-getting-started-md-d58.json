@@ -1,0 +1,20 @@
+{
+  "id": "getting-started",
+  "title": "Getting Started",
+  "description": "Every programming language has its own way to start. Here's how to create a simple \"Hello, World!\" program in each language.",
+  "source": "@site/docs/getting-started.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/docs/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Variables & Types",
+    "permalink": "/docs/variables-types"
+  }
+}

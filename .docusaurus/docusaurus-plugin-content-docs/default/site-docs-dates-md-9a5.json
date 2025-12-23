@@ -1,0 +1,24 @@
+{
+  "id": "dates",
+  "title": "Dates",
+  "description": "Date and time manipulation is crucial in most applications. Here's how different languages handle dates, both with built-in features and popular libraries.",
+  "source": "@site/docs/dates.md",
+  "sourceDirName": ".",
+  "slug": "/dates",
+  "permalink": "/docs/dates",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/dates.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Regex",
+    "permalink": "/docs/regex"
+  },
+  "next": {
+    "title": "CRUD",
+    "permalink": "/docs/crud"
+  }
+}

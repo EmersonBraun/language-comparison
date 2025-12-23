@@ -1,0 +1,15 @@
+{
+  "id": "es/getting-started",
+  "title": "Empezando",
+  "description": "Cada lenguaje de programación tiene su propia forma de comenzar. Aquí está cómo crear un programa simple \"Hello, World!\" en cada lenguaje.",
+  "source": "@site/docs/es/getting-started.md",
+  "sourceDirName": "es",
+  "slug": "/es/getting-started",
+  "permalink": "/docs/es/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-org/language-comparison/tree/main/docs/es/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

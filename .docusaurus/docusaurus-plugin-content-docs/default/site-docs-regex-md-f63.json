@@ -1,0 +1,24 @@
+{
+  "id": "regex",
+  "title": "Regex",
+  "description": "Regular expressions (regex) are powerful tools for pattern matching and text manipulation. Here's how different languages handle regex operations.",
+  "source": "@site/docs/regex.md",
+  "sourceDirName": ".",
+  "slug": "/regex",
+  "permalink": "/docs/regex",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/regex.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Strings",
+    "permalink": "/docs/strings"
+  },
+  "next": {
+    "title": "Dates",
+    "permalink": "/docs/dates"
+  }
+}

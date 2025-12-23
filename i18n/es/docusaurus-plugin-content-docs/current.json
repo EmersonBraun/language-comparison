@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "La etiqueta para la versión actual"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "Empezando",
+    "description": "La etiqueta para la categoría Empezando en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.getting-started": {
+    "message": "Empezando",
+    "description": "La etiqueta para el documento getting-started en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.variables-types": {
+    "message": "Variables y Tipos",
+    "description": "La etiqueta para el documento variables-types en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.conditionals": {
+    "message": "Condicionales",
+    "description": "La etiqueta para el documento conditionals en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.loops": {
+    "message": "Bucles",
+    "description": "La etiqueta para el documento loops en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.functions": {
+    "message": "Funciones",
+    "description": "La etiqueta para el documento functions en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.arrays": {
+    "message": "Arrays",
+    "description": "La etiqueta para el documento arrays en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.strings": {
+    "message": "Strings",
+    "description": "La etiqueta para el documento strings en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.objects-structs": {
+    "message": "Objetos y Structs",
+    "description": "La etiqueta para el documento objects-structs en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.error-handling": {
+    "message": "Manejo de Errores",
+    "description": "La etiqueta para el documento error-handling en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.classes-oop": {
+    "message": "Clases y POO",
+    "description": "La etiqueta para el documento classes-oop en la barra lateral tutorialSidebar"
+  }
+}

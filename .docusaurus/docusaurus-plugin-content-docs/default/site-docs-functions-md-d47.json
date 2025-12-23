@@ -1,0 +1,24 @@
+{
+  "id": "functions",
+  "title": "Functions",
+  "description": "Functions are blocks of reusable code. Here's how different languages define and call functions.",
+  "source": "@site/docs/functions.md",
+  "sourceDirName": ".",
+  "slug": "/functions",
+  "permalink": "/docs/functions",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/functions.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Loops",
+    "permalink": "/docs/loops"
+  },
+  "next": {
+    "title": "Arrays",
+    "permalink": "/docs/arrays"
+  }
+}

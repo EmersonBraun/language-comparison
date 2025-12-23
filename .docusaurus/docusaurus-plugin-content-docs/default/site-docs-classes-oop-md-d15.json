@@ -1,0 +1,20 @@
+{
+  "id": "classes-oop",
+  "title": "Classes & OOP",
+  "description": "Object-Oriented Programming concepts vary across languages. Here's how classes, inheritance, interfaces, and polymorphism work in different languages.",
+  "source": "@site/docs/classes-oop.md",
+  "sourceDirName": ".",
+  "slug": "/classes-oop",
+  "permalink": "/docs/classes-oop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/classes-oop.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error Handling",
+    "permalink": "/docs/error-handling"
+  }
+}

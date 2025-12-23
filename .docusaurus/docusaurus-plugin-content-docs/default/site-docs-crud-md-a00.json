@@ -1,0 +1,24 @@
+{
+  "id": "crud",
+  "title": "CRUD Operations",
+  "description": "CRUD (Create, Read, Update, Delete) operations are fundamental in web development. Here's how to create a minimal HTTP server with all HTTP verbs using the most popular libraries in each language.",
+  "source": "@site/docs/crud.md",
+  "sourceDirName": ".",
+  "slug": "/crud",
+  "permalink": "/docs/crud",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/crud.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dates",
+    "permalink": "/docs/dates"
+  },
+  "next": {
+    "title": "Objects & Structs",
+    "permalink": "/docs/objects-structs"
+  }
+}

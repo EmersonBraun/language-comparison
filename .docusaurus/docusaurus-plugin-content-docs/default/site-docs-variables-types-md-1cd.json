@@ -1,0 +1,24 @@
+{
+  "id": "variables-types",
+  "title": "Variables & Types",
+  "description": "Different languages handle variable declaration and typing in various ways. Let's compare how each language declares variables and handles types.",
+  "source": "@site/docs/variables-types.md",
+  "sourceDirName": ".",
+  "slug": "/variables-types",
+  "permalink": "/docs/variables-types",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/variables-types.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/getting-started"
+  },
+  "next": {
+    "title": "Conditionals",
+    "permalink": "/docs/conditionals"
+  }
+}

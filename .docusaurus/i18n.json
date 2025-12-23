@@ -1,0 +1,42 @@
+{
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "pt-BR",
+    "es"
+  ],
+  "path": "i18n",
+  "currentLocale": "en",
+  "localeConfigs": {
+    "en": {
+      "label": "English",
+      "direction": "ltr",
+      "htmlLang": "en-US",
+      "calendar": "gregory",
+      "path": "en",
+      "translate": true,
+      "url": "https://your-docusaurus-site.example.com",
+      "baseUrl": "/"
+    },
+    "pt-BR": {
+      "label": "Português (Brasil)",
+      "direction": "ltr",
+      "htmlLang": "pt-BR",
+      "calendar": "gregory",
+      "path": "pt-BR",
+      "translate": true,
+      "url": "https://your-docusaurus-site.example.com",
+      "baseUrl": "/pt-BR/"
+    },
+    "es": {
+      "label": "Español",
+      "direction": "ltr",
+      "htmlLang": "es-ES",
+      "calendar": "gregory",
+      "path": "es",
+      "translate": true,
+      "url": "https://your-docusaurus-site.example.com",
+      "baseUrl": "/es/"
+    }
+  }
+}

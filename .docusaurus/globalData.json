@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting-started",
+          "docs": [
+            {
+              "id": "arrays",
+              "path": "/docs/arrays",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "classes-oop",
+              "path": "/docs/classes-oop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "conditionals",
+              "path": "/docs/conditionals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "crud",
+              "path": "/docs/crud",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "dates",
+              "path": "/docs/dates",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "error-handling",
+              "path": "/docs/error-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "functions",
+              "path": "/docs/functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "loops",
+              "path": "/docs/loops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "objects-structs",
+              "path": "/docs/objects-structs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "regex",
+              "path": "/docs/regex",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "strings",
+              "path": "/docs/strings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "variables-types",
+              "path": "/docs/variables-types",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/getting-started",
+                "label": "Getting Started"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

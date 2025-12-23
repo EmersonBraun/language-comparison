@@ -1,0 +1,24 @@
+{
+  "id": "objects-structs",
+  "title": "Objects & Structs",
+  "description": "Different languages have different ways to represent structured data. Here's how objects, structs, and similar constructs work across languages.",
+  "source": "@site/docs/objects-structs.md",
+  "sourceDirName": ".",
+  "slug": "/objects-structs",
+  "permalink": "/docs/objects-structs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/objects-structs.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CRUD",
+    "permalink": "/docs/crud"
+  },
+  "next": {
+    "title": "Error Handling",
+    "permalink": "/docs/error-handling"
+  }
+}

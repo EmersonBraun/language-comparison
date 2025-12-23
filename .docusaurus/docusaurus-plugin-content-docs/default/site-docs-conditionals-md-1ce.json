@@ -1,0 +1,24 @@
+{
+  "id": "conditionals",
+  "title": "Conditionals",
+  "description": "Conditional statements allow your program to make decisions. Here's how if/else and switch statements work across different languages.",
+  "source": "@site/docs/conditionals.md",
+  "sourceDirName": ".",
+  "slug": "/conditionals",
+  "permalink": "/docs/conditionals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/conditionals.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Variables & Types",
+    "permalink": "/docs/variables-types"
+  },
+  "next": {
+    "title": "Loops",
+    "permalink": "/docs/loops"
+  }
+}

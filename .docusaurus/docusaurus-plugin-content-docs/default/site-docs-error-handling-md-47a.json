@@ -1,0 +1,24 @@
+{
+  "id": "error-handling",
+  "title": "Error Handling",
+  "description": "Error handling mechanisms vary significantly across languages. Here's how different languages handle errors and exceptions.",
+  "source": "@site/docs/error-handling.md",
+  "sourceDirName": ".",
+  "slug": "/error-handling",
+  "permalink": "/docs/error-handling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/error-handling.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Objects & Structs",
+    "permalink": "/docs/objects-structs"
+  },
+  "next": {
+    "title": "Classes & OOP",
+    "permalink": "/docs/classes-oop"
+  }
+}

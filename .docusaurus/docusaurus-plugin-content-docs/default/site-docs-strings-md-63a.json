@@ -1,0 +1,24 @@
+{
+  "id": "strings",
+  "title": "Strings",
+  "description": "String manipulation is essential in programming. Here's how different languages handle string operations, concatenation, and formatting.",
+  "source": "@site/docs/strings.md",
+  "sourceDirName": ".",
+  "slug": "/strings",
+  "permalink": "/docs/strings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/strings.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Arrays",
+    "permalink": "/docs/arrays"
+  },
+  "next": {
+    "title": "Regex",
+    "permalink": "/docs/regex"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "arrays",
+  "title": "Arrays",
+  "description": "Arrays and lists are fundamental data structures. Here's how different languages handle array creation, manipulation, and iteration.",
+  "source": "@site/docs/arrays.md",
+  "sourceDirName": ".",
+  "slug": "/arrays",
+  "permalink": "/docs/arrays",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/arrays.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Functions",
+    "permalink": "/docs/functions"
+  },
+  "next": {
+    "title": "Strings",
+    "permalink": "/docs/strings"
+  }
+}

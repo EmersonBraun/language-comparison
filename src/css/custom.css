@@ -1,0 +1,140 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #146eb4;
+  --ifm-color-primary-dark: #125a96;
+  --ifm-color-primary-darker: #115589;
+  --ifm-color-primary-darkest: #0e4671;
+  --ifm-color-primary-light: #1a7fc7;
+  --ifm-color-primary-lighter: #1d87d0;
+  --ifm-color-primary-lightest: #2a9ae0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-background: #f6f8fa;
+  --ifm-code-border-radius: 6px;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #146eb4;
+  --ifm-color-primary-dark: #1a7fc7;
+  --ifm-color-primary-darker: #1d87d0;
+  --ifm-color-primary-darkest: #2a9ae0;
+  --ifm-color-primary-light: #1a7fc7;
+  --ifm-color-primary-lighter: #1d87d0;
+  --ifm-color-primary-lightest: #2a9ae0;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-code-background: #282c34;
+}
+
+/* Language comparison styles */
+.language-comparison {
+  margin: 2rem 0;
+}
+
+/* Code block improvements */
+.prism-code {
+  border-radius: var(--ifm-code-border-radius);
+}
+
+/* Tab improvements for better readability */
+.theme-code-block {
+  margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .language-comparison {
+    margin: 1rem 0;
+  }
+  
+  /* Better spacing on mobile */
+  .theme-code-block {
+    font-size: 0.85rem;
+  }
+}
+
+/* Improve code block scrolling on mobile */
+@media (max-width: 996px) {
+  .theme-code-block pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Better contrast for code in both themes */
+code {
+  background-color: var(--ifm-code-background);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.2rem;
+  font-size: 0.9em;
+}
+
+/* Ensure proper spacing for language comparison tabs */
+.tabs-container {
+  margin-bottom: 1rem;
+}
+
+/* Footer improvements to match AWS Cheatsheet style */
+.footer {
+  background-color: var(--ifm-footer-background-color);
+}
+
+.footer__links {
+  margin-bottom: 1rem;
+}
+
+.footer__link-item {
+  font-size: 0.875rem;
+}
+
+.footer__copyright {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+
+/* Hero section improvements */
+.hero {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary-dark) 100%);
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  opacity: 0.95;
+}
+
+/* Button improvements */
+.button {
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Section spacing improvements */
+section {
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 1rem);
+}
+
+/* Improve readability */
+p {
+  line-height: 1.7;
+}
+
+/* Better list styling */
+ul {
+  line-height: 1.8;
+}
+

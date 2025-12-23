@@ -1,0 +1,12 @@
+{
+  "title": {
+    "message": "Home",
+    "description": "The title in the navbar"
+  },
+  "item.label.Docs": {
+    "message": "Language Comparison",
+    "description": "Navbar item with label Docs"
+  }
+}
+
+
