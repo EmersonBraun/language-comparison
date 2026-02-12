@@ -1,163 +1,163 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/language-comparison/docs",
+      "path": "/language-comparison/es/docs",
       "versions": [
         {
           "name": "current",
-          "label": "Next",
+          "label": "Siguiente",
           "isLast": true,
-          "path": "/language-comparison/docs",
+          "path": "/language-comparison/es/docs",
           "mainDocId": "roadmap",
           "docs": [
             {
               "id": "arrays",
-              "path": "/language-comparison/docs/arrays",
+              "path": "/language-comparison/es/docs/arrays",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "classes-oop",
-              "path": "/language-comparison/docs/classes-oop",
+              "path": "/language-comparison/es/docs/classes-oop",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "closures-lambdas",
-              "path": "/language-comparison/docs/closures-lambdas",
+              "path": "/language-comparison/es/docs/closures-lambdas",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "comments-documentation",
-              "path": "/language-comparison/docs/comments-documentation",
+              "path": "/language-comparison/es/docs/comments-documentation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "comparison-matrix",
-              "path": "/language-comparison/docs/comparison-matrix",
+              "path": "/language-comparison/es/docs/comparison-matrix",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "concurrency-async",
-              "path": "/language-comparison/docs/concurrency-async",
+              "path": "/language-comparison/es/docs/concurrency-async",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "conditionals",
-              "path": "/language-comparison/docs/conditionals",
+              "path": "/language-comparison/es/docs/conditionals",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "constants-enums",
-              "path": "/language-comparison/docs/constants-enums",
+              "path": "/language-comparison/es/docs/constants-enums",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "crud",
-              "path": "/language-comparison/docs/crud",
+              "path": "/language-comparison/es/docs/crud",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "dates",
-              "path": "/language-comparison/docs/dates",
+              "path": "/language-comparison/es/docs/dates",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "error-handling",
-              "path": "/language-comparison/docs/error-handling",
+              "path": "/language-comparison/es/docs/error-handling",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "file-io",
-              "path": "/language-comparison/docs/file-io",
+              "path": "/language-comparison/es/docs/file-io",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "functions",
-              "path": "/language-comparison/docs/functions",
+              "path": "/language-comparison/es/docs/functions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "generics-templates",
-              "path": "/language-comparison/docs/generics-templates",
+              "path": "/language-comparison/es/docs/generics-templates",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started",
-              "path": "/language-comparison/docs/getting-started",
+              "path": "/language-comparison/es/docs/getting-started",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "json-serialization",
-              "path": "/language-comparison/docs/json-serialization",
+              "path": "/language-comparison/es/docs/json-serialization",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "loops",
-              "path": "/language-comparison/docs/loops",
+              "path": "/language-comparison/es/docs/loops",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "maps-dictionaries",
-              "path": "/language-comparison/docs/maps-dictionaries",
+              "path": "/language-comparison/es/docs/maps-dictionaries",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "memory-management",
-              "path": "/language-comparison/docs/memory-management",
+              "path": "/language-comparison/es/docs/memory-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "modules-imports",
-              "path": "/language-comparison/docs/modules-imports",
+              "path": "/language-comparison/es/docs/modules-imports",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "null-safety",
-              "path": "/language-comparison/docs/null-safety",
+              "path": "/language-comparison/es/docs/null-safety",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "objects-structs",
-              "path": "/language-comparison/docs/objects-structs",
+              "path": "/language-comparison/es/docs/objects-structs",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "operators",
-              "path": "/language-comparison/docs/operators",
+              "path": "/language-comparison/es/docs/operators",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "package-management",
-              "path": "/language-comparison/docs/package-management",
+              "path": "/language-comparison/es/docs/package-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "pattern-matching",
-              "path": "/language-comparison/docs/pattern-matching",
+              "path": "/language-comparison/es/docs/pattern-matching",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "regex",
-              "path": "/language-comparison/docs/regex",
+              "path": "/language-comparison/es/docs/regex",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "roadmap",
-              "path": "/language-comparison/docs/roadmap",
+              "path": "/language-comparison/es/docs/roadmap",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "strings",
-              "path": "/language-comparison/docs/strings",
+              "path": "/language-comparison/es/docs/strings",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "testing",
-              "path": "/language-comparison/docs/testing",
+              "path": "/language-comparison/es/docs/testing",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "variables-types",
-              "path": "/language-comparison/docs/variables-types",
+              "path": "/language-comparison/es/docs/variables-types",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -165,7 +165,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/language-comparison/docs/roadmap",
+                "path": "/language-comparison/es/docs/roadmap",
                 "label": "How to Use This Guide"
               }
             }

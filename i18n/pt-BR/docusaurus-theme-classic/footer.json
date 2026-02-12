@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Documentação",
+    "description": "O título da coluna de links do rodapé com title=Docs"
+  },
+  "link.title.Connect": {
+    "message": "Conectar",
+    "description": "O título da coluna de links do rodapé com title=Connect"
+  },
+  "link.item.label.How to Use This Guide": {
+    "message": "Como Usar Este Guia",
+    "description": "O label do link do rodapé com label=How to Use This Guide"
+  },
+  "link.item.label.Website": {
+    "message": "Website",
+    "description": "O label do link do rodapé com label=Website"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "O label do link do rodapé com label=LinkedIn"
+  },
+  "link.item.label.X / Twitter": {
+    "message": "X / Twitter",
+    "description": "O label do link do rodapé com label=X / Twitter"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "O label do link do rodapé com label=Instagram"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "O label do link do rodapé com label=YouTube"
+  },
+  "copyright": {
+    "message": "Comparação de Linguagens. Criado por <a href=\"https://www.linkedin.com/in/emerson-braun/\" target=\"_blank\">Emerson Braun</a>",
+    "description": "O copyright do rodapé"
+  }
+}

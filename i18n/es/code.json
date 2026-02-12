@@ -1,0 +1,89 @@
+{
+  "homepage.hero.title": {
+    "message": "Comparación de Lenguajes"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Tu guía definitiva de comparación de lenguajes de programación con información estructurada de sintaxis"
+  },
+  "homepage.hero.cta": {
+    "message": "Empezar a Aprender 🚀"
+  },
+  "homepage.whatIs.title": {
+    "message": "¿Qué es este proyecto?"
+  },
+  "homepage.whatIs.description": {
+    "message": "Esta Comparación de Lenguajes es tu compañero integral para entender lenguajes de programación. Cada concepto se presenta en un formato estructurado con ejemplos de código en 12 lenguajes populares: JavaScript, PHP, Rust, Go, Python, Zig, C#, C++, C, Java, Ruby y Swift. Esta organización te ayuda a entender rápidamente las diferencias de sintaxis, mejores prácticas y patrones de implementación entre diferentes lenguajes."
+  },
+  "homepage.whatIs.cta": {
+    "message": "Explorar Lenguajes ✨"
+  },
+  "homepage.contribute.title": {
+    "message": "Ayuda a Mejorar Esta Guía"
+  },
+  "homepage.contribute.description": {
+    "message": "Este proyecto prospera con las contribuciones de la comunidad. Si estás aprendiendo lenguajes de programación o trabajando con múltiples lenguajes, ¡tus conocimientos son valiosos! Puedes ayudar:"
+  },
+  "homepage.contribute.list.examples": {
+    "message": "Agregando nuevos ejemplos de código basados en tu experiencia"
+  },
+  "homepage.contribute.list.syntax": {
+    "message": "Actualizando ejemplos de sintaxis con las últimas características de los lenguajes"
+  },
+  "homepage.contribute.list.comparisons": {
+    "message": "Contribuyendo a las comparaciones de lenguajes"
+  },
+  "homepage.contribute.list.outdated": {
+    "message": "Corrigiendo información desactualizada"
+  },
+  "homepage.contribute.list.explanations": {
+    "message": "Mejorando explicaciones y ejemplos"
+  },
+  "homepage.contribute.closing": {
+    "message": "Tus contribuciones ayudan a mantener esta guía actualizada y valiosa para todos en la comunidad de programación. ¡Consulta nuestras pautas de contribución para empezar!"
+  },
+  "homepage.contribute.cta": {
+    "message": "Contribuir al Proyecto 🤝"
+  },
+  "homepage.layout.title": {
+    "message": "Comparación de Lenguajes"
+  },
+  "homepage.layout.description": {
+    "message": "Compara lenguajes de programación lado a lado"
+  },
+  "compare.single.title": {
+    "message": "Ver un lenguaje a la vez"
+  },
+  "compare.single.label": {
+    "message": "Individual"
+  },
+  "compare.compare.title": {
+    "message": "Comparar dos lenguajes lado a lado"
+  },
+  "compare.compare.label": {
+    "message": "Comparar"
+  },
+  "compare.left.ariaLabel": {
+    "message": "Lenguaje izquierdo"
+  },
+  "compare.right.ariaLabel": {
+    "message": "Lenguaje derecho"
+  },
+  "sideBySide.selectLanguage": {
+    "message": "Selecciona un lenguaje"
+  },
+  "sideBySide.noLanguage": {
+    "message": "Ningún lenguaje seleccionado"
+  },
+  "ebook.title": {
+    "message": "🎯 ¿Cansado de reprobar en entrevistas técnicas?"
+  },
+  "ebook.description": {
+    "message": "Descarga mi e-book GRATUITO \"Cracking The Technical Interview\" y aprende estrategias comprobadas para superar tu próxima entrevista técnica con confianza."
+  },
+  "ebook.cta": {
+    "message": "Descargar Mi E-book Gratis 📚"
+  },
+  "ebook.footer": {
+    "message": "Confiable por más de 2,000 desarrolladores • Sin spam, lo prometemos"
+  }
+}

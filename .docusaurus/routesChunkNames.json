@@ -1,191 +1,148 @@
 {
-  "/language-comparison/__docusaurus/debug-a00": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/language-comparison/es/search-b60": {
+    "__comp": "1a4e3797",
     "__context": {
-      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
+      "plugin": "c141421f"
     }
   },
-  "/language-comparison/__docusaurus/debug/config-33a": {
-    "__comp": "__comp---theme-debug-config-23-a-2ff",
+  "/language-comparison/es/docs-426": {
+    "__comp": "5e95c892",
     "__context": {
-      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
+      "plugin": "aba21aa0"
     }
   },
-  "/language-comparison/__docusaurus/debug/content-0e7": {
-    "__comp": "__comp---theme-debug-contentba-8-ce7",
+  "/language-comparison/es/docs-755": {
+    "__comp": "a7bd4aaa",
+    "__props": "bf8da519"
+  },
+  "/language-comparison/es/docs-da7": {
+    "__comp": "a94703ab"
+  },
+  "/language-comparison/es/docs/arrays-5b4": {
+    "__comp": "17896441",
+    "content": "9056b3cf"
+  },
+  "/language-comparison/es/docs/classes-oop-42b": {
+    "__comp": "17896441",
+    "content": "06d50643"
+  },
+  "/language-comparison/es/docs/closures-lambdas-050": {
+    "__comp": "17896441",
+    "content": "6c95b771"
+  },
+  "/language-comparison/es/docs/comments-documentation-2de": {
+    "__comp": "17896441",
+    "content": "2f20a937"
+  },
+  "/language-comparison/es/docs/comparison-matrix-22a": {
+    "__comp": "17896441",
+    "content": "2c28e9ca"
+  },
+  "/language-comparison/es/docs/concurrency-async-d74": {
+    "__comp": "17896441",
+    "content": "9b941616"
+  },
+  "/language-comparison/es/docs/conditionals-6bc": {
+    "__comp": "17896441",
+    "content": "96513a1c"
+  },
+  "/language-comparison/es/docs/constants-enums-c05": {
+    "__comp": "17896441",
+    "content": "6e7febd7"
+  },
+  "/language-comparison/es/docs/crud-2bc": {
+    "__comp": "17896441",
+    "content": "3191db6f"
+  },
+  "/language-comparison/es/docs/dates-fe5": {
+    "__comp": "17896441",
+    "content": "15b20e02"
+  },
+  "/language-comparison/es/docs/error-handling-de7": {
+    "__comp": "17896441",
+    "content": "ad403b79"
+  },
+  "/language-comparison/es/docs/file-io-b68": {
+    "__comp": "17896441",
+    "content": "2e7000d2"
+  },
+  "/language-comparison/es/docs/functions-081": {
+    "__comp": "17896441",
+    "content": "63ad5e9d"
+  },
+  "/language-comparison/es/docs/generics-templates-679": {
+    "__comp": "17896441",
+    "content": "3b7ae3a1"
+  },
+  "/language-comparison/es/docs/getting-started-bf6": {
+    "__comp": "17896441",
+    "content": "bf6e18ad"
+  },
+  "/language-comparison/es/docs/json-serialization-bf1": {
+    "__comp": "17896441",
+    "content": "d2437c7b"
+  },
+  "/language-comparison/es/docs/loops-587": {
+    "__comp": "17896441",
+    "content": "e9be2ef5"
+  },
+  "/language-comparison/es/docs/maps-dictionaries-b06": {
+    "__comp": "17896441",
+    "content": "0027b0d1"
+  },
+  "/language-comparison/es/docs/memory-management-3ee": {
+    "__comp": "17896441",
+    "content": "42d83554"
+  },
+  "/language-comparison/es/docs/modules-imports-b73": {
+    "__comp": "17896441",
+    "content": "1a2d5c2b"
+  },
+  "/language-comparison/es/docs/null-safety-f30": {
+    "__comp": "17896441",
+    "content": "e840dfcc"
+  },
+  "/language-comparison/es/docs/objects-structs-4b2": {
+    "__comp": "17896441",
+    "content": "3d6f6dca"
+  },
+  "/language-comparison/es/docs/operators-8e5": {
+    "__comp": "17896441",
+    "content": "44ee4945"
+  },
+  "/language-comparison/es/docs/package-management-264": {
+    "__comp": "17896441",
+    "content": "5b44e921"
+  },
+  "/language-comparison/es/docs/pattern-matching-456": {
+    "__comp": "17896441",
+    "content": "6fea656c"
+  },
+  "/language-comparison/es/docs/regex-97c": {
+    "__comp": "17896441",
+    "content": "4e4423be"
+  },
+  "/language-comparison/es/docs/roadmap-550": {
+    "__comp": "17896441",
+    "content": "21fb7a6e"
+  },
+  "/language-comparison/es/docs/strings-f69": {
+    "__comp": "17896441",
+    "content": "f5500115"
+  },
+  "/language-comparison/es/docs/testing-cfe": {
+    "__comp": "17896441",
+    "content": "e9bfcdfb"
+  },
+  "/language-comparison/es/docs/variables-types-a3e": {
+    "__comp": "17896441",
+    "content": "03e093b3"
+  },
+  "/language-comparison/es/-f9a": {
+    "__comp": "1df93b7f",
     "__context": {
-      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
+      "plugin": "a7456010"
     },
-    "__props": "__props---language-comparison-docusaurus-debug-contenta-48-ab4"
-  },
-  "/language-comparison/__docusaurus/debug/globalData-cae": {
-    "__comp": "__comp---theme-debug-global-dataede-0fa",
-    "__context": {
-      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
-    }
-  },
-  "/language-comparison/__docusaurus/debug/metadata-145": {
-    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
-    "__context": {
-      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
-    }
-  },
-  "/language-comparison/__docusaurus/debug/registry-3b8": {
-    "__comp": "__comp---theme-debug-registry-679-501",
-    "__context": {
-      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
-    }
-  },
-  "/language-comparison/__docusaurus/debug/routes-dd1": {
-    "__comp": "__comp---theme-debug-routes-946-699",
-    "__context": {
-      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
-    }
-  },
-  "/language-comparison/search-a7e": {
-    "__comp": "__comp---theme-search-page-1-a-4-d6f",
-    "__context": {
-      "plugin": "plugin---language-comparison-searchc-14-f38"
-    }
-  },
-  "/language-comparison/docs-121": {
-    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
-    "__context": {
-      "plugin": "plugin---language-comparison-docsaba-9de"
-    }
-  },
-  "/language-comparison/docs-070": {
-    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---language-comparison-docs-005-975"
-  },
-  "/language-comparison/docs-d53": {
-    "__comp": "__comp---theme-doc-roota-94-67a"
-  },
-  "/language-comparison/docs/arrays-af7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-arrays-9-fd-720"
-  },
-  "/language-comparison/docs/classes-oop-61b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-classes-oopd-15-e7e"
-  },
-  "/language-comparison/docs/closures-lambdas-99c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-closures-lambdasb-2-f-5ee"
-  },
-  "/language-comparison/docs/comments-documentation-b15": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-comments-documentation-6-dc-1d3"
-  },
-  "/language-comparison/docs/comparison-matrix-f6b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-comparison-matrix-0-e-3-69f"
-  },
-  "/language-comparison/docs/concurrency-async-c26": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-concurrency-async-9-c-7-59e"
-  },
-  "/language-comparison/docs/conditionals-3bd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-conditionals-1-ce-ade"
-  },
-  "/language-comparison/docs/constants-enums-91e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-constants-enums-503-a13"
-  },
-  "/language-comparison/docs/crud-f65": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-cruda-00-fc6"
-  },
-  "/language-comparison/docs/dates-fb7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-dates-9-a-5-310"
-  },
-  "/language-comparison/docs/error-handling-b86": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-error-handling-47-a-0b4"
-  },
-  "/language-comparison/docs/file-io-0be": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-file-iod-5-c-b69"
-  },
-  "/language-comparison/docs/functions-910": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-functionsd-47-a23"
-  },
-  "/language-comparison/docs/generics-templates-bcd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-generics-templates-505-d67"
-  },
-  "/language-comparison/docs/getting-started-191": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-getting-startedd-58-bba"
-  },
-  "/language-comparison/docs/json-serialization-cfa": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-json-serializationd-1-e-d63"
-  },
-  "/language-comparison/docs/loops-117": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-loops-035-2f7"
-  },
-  "/language-comparison/docs/maps-dictionaries-d79": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-maps-dictionaries-14-f-1f9"
-  },
-  "/language-comparison/docs/memory-management-398": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-memory-management-8-be-9c5"
-  },
-  "/language-comparison/docs/modules-imports-b72": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-modules-imports-2-be-bd5"
-  },
-  "/language-comparison/docs/null-safety-90a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-null-safety-74-f-473"
-  },
-  "/language-comparison/docs/objects-structs-7df": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-objects-structs-964-ac7"
-  },
-  "/language-comparison/docs/operators-e16": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-operatorsdbe-e1b"
-  },
-  "/language-comparison/docs/package-management-668": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-package-management-76-d-ec6"
-  },
-  "/language-comparison/docs/pattern-matching-c90": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-pattern-matching-258-2d4"
-  },
-  "/language-comparison/docs/regex-a42": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-regexf-63-030"
-  },
-  "/language-comparison/docs/roadmap-eec": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-roadmap-0-df-197"
-  },
-  "/language-comparison/docs/strings-ef5": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-strings-63-a-ca5"
-  },
-  "/language-comparison/docs/testing-ddc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-testingfbe-568"
-  },
-  "/language-comparison/docs/variables-types-edb": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---language-comparison-docs-variables-types-1-cd-bbc"
-  },
-  "/language-comparison/-f95": {
-    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
-    "__context": {
-      "plugin": "plugin---language-comparison-a-74-f41"
-    },
-    "config": "config---language-comparison-5-e-9-e02"
+    "config": "5e9f5e1a"
   }
 }

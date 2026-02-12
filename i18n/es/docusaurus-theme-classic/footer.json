@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Documentación",
+    "description": "El título de la columna de enlaces del pie de página con title=Docs"
+  },
+  "link.title.Connect": {
+    "message": "Conectar",
+    "description": "El título de la columna de enlaces del pie de página con title=Connect"
+  },
+  "link.item.label.How to Use This Guide": {
+    "message": "Cómo Usar Esta Guía",
+    "description": "La etiqueta del enlace del pie de página con label=How to Use This Guide"
+  },
+  "link.item.label.Website": {
+    "message": "Website",
+    "description": "La etiqueta del enlace del pie de página con label=Website"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "La etiqueta del enlace del pie de página con label=LinkedIn"
+  },
+  "link.item.label.X / Twitter": {
+    "message": "X / Twitter",
+    "description": "La etiqueta del enlace del pie de página con label=X / Twitter"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "La etiqueta del enlace del pie de página con label=Instagram"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "La etiqueta del enlace del pie de página con label=YouTube"
+  },
+  "copyright": {
+    "message": "Comparación de Lenguajes. Creado por <a href=\"https://www.linkedin.com/in/emerson-braun/\" target=\"_blank\">Emerson Braun</a>",
+    "description": "El copyright del pie de página"
+  }
+}

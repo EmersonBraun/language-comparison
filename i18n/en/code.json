@@ -1,0 +1,89 @@
+{
+  "homepage.hero.title": {
+    "message": "Language Comparison"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Your ultimate programming language comparison guide with structured syntax insights"
+  },
+  "homepage.hero.cta": {
+    "message": "Start Learning 🚀"
+  },
+  "homepage.whatIs.title": {
+    "message": "What is this project?"
+  },
+  "homepage.whatIs.description": {
+    "message": "This Language Comparison is your comprehensive companion for understanding programming languages. Each language concept is presented in a structured format with code examples across 12 popular languages: JavaScript, PHP, Rust, Go, Python, Zig, C#, C++, C, Java, Ruby, and Swift. This organization helps you quickly understand syntax differences, best practices, and implementation patterns across different languages."
+  },
+  "homepage.whatIs.cta": {
+    "message": "Explore Languages ✨"
+  },
+  "homepage.contribute.title": {
+    "message": "Help Improve This Guide"
+  },
+  "homepage.contribute.description": {
+    "message": "This project thrives on community contributions. If you're learning programming languages or working with multiple languages, your insights are valuable! You can help by:"
+  },
+  "homepage.contribute.list.examples": {
+    "message": "Adding new code examples based on your experience"
+  },
+  "homepage.contribute.list.syntax": {
+    "message": "Updating syntax examples with the latest language features"
+  },
+  "homepage.contribute.list.comparisons": {
+    "message": "Contributing to language comparisons"
+  },
+  "homepage.contribute.list.outdated": {
+    "message": "Fixing outdated information"
+  },
+  "homepage.contribute.list.explanations": {
+    "message": "Improving explanations and examples"
+  },
+  "homepage.contribute.closing": {
+    "message": "Your contributions help keep this guide current and valuable for everyone in the programming community. Check out our contribution guidelines to get started!"
+  },
+  "homepage.contribute.cta": {
+    "message": "Contribute to the Project 🤝"
+  },
+  "homepage.layout.title": {
+    "message": "Language Comparison"
+  },
+  "homepage.layout.description": {
+    "message": "Compare programming languages side by side"
+  },
+  "compare.single.title": {
+    "message": "View one language at a time"
+  },
+  "compare.single.label": {
+    "message": "Single"
+  },
+  "compare.compare.title": {
+    "message": "Compare two languages side by side"
+  },
+  "compare.compare.label": {
+    "message": "Compare"
+  },
+  "compare.left.ariaLabel": {
+    "message": "Left language"
+  },
+  "compare.right.ariaLabel": {
+    "message": "Right language"
+  },
+  "sideBySide.selectLanguage": {
+    "message": "Select a language"
+  },
+  "sideBySide.noLanguage": {
+    "message": "No language selected"
+  },
+  "ebook.title": {
+    "message": "🎯 Tired of failing technical interviews?"
+  },
+  "ebook.description": {
+    "message": "Get my FREE e-book \"Cracking The Technical Interview\" and learn proven strategies to ace your next technical interview with confidence!"
+  },
+  "ebook.cta": {
+    "message": "Get My Free E-book 📚"
+  },
+  "ebook.footer": {
+    "message": "Trusted by 2,000+ developers • No spam, we promise"
+  }
+}

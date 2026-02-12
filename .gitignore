@@ -8,6 +8,7 @@
 
 # Production
 /build
+.docusaurus/*
 
 # Misc
 .env

@@ -3,17 +3,41 @@
     "message": "Siguiente",
     "description": "La etiqueta para la versión actual"
   },
-  "sidebar.tutorialSidebar.category.Getting Started": {
-    "message": "Empezando",
-    "description": "La etiqueta para la categoría Empezando en la barra lateral tutorialSidebar"
+  "sidebar.tutorialSidebar.doc.roadmap": {
+    "message": "Cómo Usar Esta Guía",
+    "description": "La etiqueta para el documento roadmap en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.comparison-matrix": {
+    "message": "Matriz de Comparación de Lenguajes",
+    "description": "La etiqueta para el documento comparison-matrix en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Basics": {
+    "message": "Fundamentos",
+    "description": "La etiqueta para la categoría Basics en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.getting-started": {
     "message": "Empezando",
     "description": "La etiqueta para el documento getting-started en la barra lateral tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.comments-documentation": {
+    "message": "Comentarios y Documentación",
+    "description": "La etiqueta para el documento comments-documentation en la barra lateral tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.variables-types": {
     "message": "Variables y Tipos",
     "description": "La etiqueta para el documento variables-types en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.operators": {
+    "message": "Operadores",
+    "description": "La etiqueta para el documento operators en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.constants-enums": {
+    "message": "Constantes y Enums",
+    "description": "La etiqueta para el documento constants-enums en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Control Flow": {
+    "message": "Flujo de Control",
+    "description": "La etiqueta para la categoría Control Flow en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.conditionals": {
     "message": "Condicionales",
@@ -23,9 +47,25 @@
     "message": "Bucles",
     "description": "La etiqueta para el documento loops en la barra lateral tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.pattern-matching": {
+    "message": "Pattern Matching",
+    "description": "La etiqueta para el documento pattern-matching en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Functions & Closures": {
+    "message": "Funciones y Closures",
+    "description": "La etiqueta para la categoría Functions & Closures en la barra lateral tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.functions": {
     "message": "Funciones",
     "description": "La etiqueta para el documento functions en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.closures-lambdas": {
+    "message": "Closures y Lambdas",
+    "description": "La etiqueta para el documento closures-lambdas en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Structures": {
+    "message": "Estructuras de Datos",
+    "description": "La etiqueta para la categoría Data Structures en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.arrays": {
     "message": "Arrays",
@@ -39,12 +79,84 @@
     "message": "Objetos y Structs",
     "description": "La etiqueta para el documento objects-structs en la barra lateral tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.doc.error-handling": {
-    "message": "Manejo de Errores",
-    "description": "La etiqueta para el documento error-handling en la barra lateral tutorialSidebar"
+  "sidebar.tutorialSidebar.doc.maps-dictionaries": {
+    "message": "Maps y Diccionarios",
+    "description": "La etiqueta para el documento maps-dictionaries en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Object-Oriented Programming": {
+    "message": "Programación Orientada a Objetos",
+    "description": "La etiqueta para la categoría Object-Oriented Programming en la barra lateral tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.classes-oop": {
     "message": "Clases y POO",
     "description": "La etiqueta para el documento classes-oop en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.generics-templates": {
+    "message": "Generics y Templates",
+    "description": "La etiqueta para el documento generics-templates en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Standard Library": {
+    "message": "Biblioteca Estándar",
+    "description": "La etiqueta para la categoría Standard Library en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.regex": {
+    "message": "Regex",
+    "description": "La etiqueta para el documento regex en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.dates": {
+    "message": "Fechas",
+    "description": "La etiqueta para el documento dates en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.file-io": {
+    "message": "Entrada/Salida de Archivos",
+    "description": "La etiqueta para el documento file-io en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.json-serialization": {
+    "message": "JSON y Serialización",
+    "description": "La etiqueta para el documento json-serialization en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Web & Network": {
+    "message": "Web y Red",
+    "description": "La etiqueta para la categoría Web & Network en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.crud": {
+    "message": "Operaciones CRUD",
+    "description": "La etiqueta para el documento crud en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Concepts": {
+    "message": "Conceptos Avanzados",
+    "description": "La etiqueta para la categoría Advanced Concepts en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.error-handling": {
+    "message": "Manejo de Errores",
+    "description": "La etiqueta para el documento error-handling en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.null-safety": {
+    "message": "Null Safety y Opcionales",
+    "description": "La etiqueta para el documento null-safety en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.concurrency-async": {
+    "message": "Concurrencia y Async",
+    "description": "La etiqueta para el documento concurrency-async en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.memory-management": {
+    "message": "Gestión de Memoria",
+    "description": "La etiqueta para el documento memory-management en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tooling & Ecosystem": {
+    "message": "Herramientas y Ecosistema",
+    "description": "La etiqueta para la categoría Tooling & Ecosystem en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.modules-imports": {
+    "message": "Módulos e Imports",
+    "description": "La etiqueta para el documento modules-imports en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.package-management": {
+    "message": "Gestión de Paquetes",
+    "description": "La etiqueta para el documento package-management en la barra lateral tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.testing": {
+    "message": "Testing",
+    "description": "La etiqueta para el documento testing en la barra lateral tutorialSidebar"
   }
 }

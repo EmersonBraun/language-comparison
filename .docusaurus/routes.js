@@ -3,234 +3,199 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/language-comparison/__docusaurus/debug',
-    component: ComponentCreator('/language-comparison/__docusaurus/debug', 'a00'),
+    path: '/language-comparison/es/search',
+    component: ComponentCreator('/language-comparison/es/search', 'b60'),
     exact: true
   },
   {
-    path: '/language-comparison/__docusaurus/debug/config',
-    component: ComponentCreator('/language-comparison/__docusaurus/debug/config', '33a'),
-    exact: true
-  },
-  {
-    path: '/language-comparison/__docusaurus/debug/content',
-    component: ComponentCreator('/language-comparison/__docusaurus/debug/content', '0e7'),
-    exact: true
-  },
-  {
-    path: '/language-comparison/__docusaurus/debug/globalData',
-    component: ComponentCreator('/language-comparison/__docusaurus/debug/globalData', 'cae'),
-    exact: true
-  },
-  {
-    path: '/language-comparison/__docusaurus/debug/metadata',
-    component: ComponentCreator('/language-comparison/__docusaurus/debug/metadata', '145'),
-    exact: true
-  },
-  {
-    path: '/language-comparison/__docusaurus/debug/registry',
-    component: ComponentCreator('/language-comparison/__docusaurus/debug/registry', '3b8'),
-    exact: true
-  },
-  {
-    path: '/language-comparison/__docusaurus/debug/routes',
-    component: ComponentCreator('/language-comparison/__docusaurus/debug/routes', 'dd1'),
-    exact: true
-  },
-  {
-    path: '/language-comparison/search',
-    component: ComponentCreator('/language-comparison/search', 'a7e'),
-    exact: true
-  },
-  {
-    path: '/language-comparison/docs',
-    component: ComponentCreator('/language-comparison/docs', '121'),
+    path: '/language-comparison/es/docs',
+    component: ComponentCreator('/language-comparison/es/docs', '426'),
     routes: [
       {
-        path: '/language-comparison/docs',
-        component: ComponentCreator('/language-comparison/docs', '070'),
+        path: '/language-comparison/es/docs',
+        component: ComponentCreator('/language-comparison/es/docs', '755'),
         routes: [
           {
-            path: '/language-comparison/docs',
-            component: ComponentCreator('/language-comparison/docs', 'd53'),
+            path: '/language-comparison/es/docs',
+            component: ComponentCreator('/language-comparison/es/docs', 'da7'),
             routes: [
               {
-                path: '/language-comparison/docs/arrays',
-                component: ComponentCreator('/language-comparison/docs/arrays', 'af7'),
+                path: '/language-comparison/es/docs/arrays',
+                component: ComponentCreator('/language-comparison/es/docs/arrays', '5b4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/classes-oop',
-                component: ComponentCreator('/language-comparison/docs/classes-oop', '61b'),
+                path: '/language-comparison/es/docs/classes-oop',
+                component: ComponentCreator('/language-comparison/es/docs/classes-oop', '42b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/closures-lambdas',
-                component: ComponentCreator('/language-comparison/docs/closures-lambdas', '99c'),
+                path: '/language-comparison/es/docs/closures-lambdas',
+                component: ComponentCreator('/language-comparison/es/docs/closures-lambdas', '050'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/comments-documentation',
-                component: ComponentCreator('/language-comparison/docs/comments-documentation', 'b15'),
+                path: '/language-comparison/es/docs/comments-documentation',
+                component: ComponentCreator('/language-comparison/es/docs/comments-documentation', '2de'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/comparison-matrix',
-                component: ComponentCreator('/language-comparison/docs/comparison-matrix', 'f6b'),
+                path: '/language-comparison/es/docs/comparison-matrix',
+                component: ComponentCreator('/language-comparison/es/docs/comparison-matrix', '22a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/concurrency-async',
-                component: ComponentCreator('/language-comparison/docs/concurrency-async', 'c26'),
+                path: '/language-comparison/es/docs/concurrency-async',
+                component: ComponentCreator('/language-comparison/es/docs/concurrency-async', 'd74'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/conditionals',
-                component: ComponentCreator('/language-comparison/docs/conditionals', '3bd'),
+                path: '/language-comparison/es/docs/conditionals',
+                component: ComponentCreator('/language-comparison/es/docs/conditionals', '6bc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/constants-enums',
-                component: ComponentCreator('/language-comparison/docs/constants-enums', '91e'),
+                path: '/language-comparison/es/docs/constants-enums',
+                component: ComponentCreator('/language-comparison/es/docs/constants-enums', 'c05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/crud',
-                component: ComponentCreator('/language-comparison/docs/crud', 'f65'),
+                path: '/language-comparison/es/docs/crud',
+                component: ComponentCreator('/language-comparison/es/docs/crud', '2bc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/dates',
-                component: ComponentCreator('/language-comparison/docs/dates', 'fb7'),
+                path: '/language-comparison/es/docs/dates',
+                component: ComponentCreator('/language-comparison/es/docs/dates', 'fe5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/error-handling',
-                component: ComponentCreator('/language-comparison/docs/error-handling', 'b86'),
+                path: '/language-comparison/es/docs/error-handling',
+                component: ComponentCreator('/language-comparison/es/docs/error-handling', 'de7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/file-io',
-                component: ComponentCreator('/language-comparison/docs/file-io', '0be'),
+                path: '/language-comparison/es/docs/file-io',
+                component: ComponentCreator('/language-comparison/es/docs/file-io', 'b68'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/functions',
-                component: ComponentCreator('/language-comparison/docs/functions', '910'),
+                path: '/language-comparison/es/docs/functions',
+                component: ComponentCreator('/language-comparison/es/docs/functions', '081'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/generics-templates',
-                component: ComponentCreator('/language-comparison/docs/generics-templates', 'bcd'),
+                path: '/language-comparison/es/docs/generics-templates',
+                component: ComponentCreator('/language-comparison/es/docs/generics-templates', '679'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/getting-started',
-                component: ComponentCreator('/language-comparison/docs/getting-started', '191'),
+                path: '/language-comparison/es/docs/getting-started',
+                component: ComponentCreator('/language-comparison/es/docs/getting-started', 'bf6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/json-serialization',
-                component: ComponentCreator('/language-comparison/docs/json-serialization', 'cfa'),
+                path: '/language-comparison/es/docs/json-serialization',
+                component: ComponentCreator('/language-comparison/es/docs/json-serialization', 'bf1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/loops',
-                component: ComponentCreator('/language-comparison/docs/loops', '117'),
+                path: '/language-comparison/es/docs/loops',
+                component: ComponentCreator('/language-comparison/es/docs/loops', '587'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/maps-dictionaries',
-                component: ComponentCreator('/language-comparison/docs/maps-dictionaries', 'd79'),
+                path: '/language-comparison/es/docs/maps-dictionaries',
+                component: ComponentCreator('/language-comparison/es/docs/maps-dictionaries', 'b06'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/memory-management',
-                component: ComponentCreator('/language-comparison/docs/memory-management', '398'),
+                path: '/language-comparison/es/docs/memory-management',
+                component: ComponentCreator('/language-comparison/es/docs/memory-management', '3ee'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/modules-imports',
-                component: ComponentCreator('/language-comparison/docs/modules-imports', 'b72'),
+                path: '/language-comparison/es/docs/modules-imports',
+                component: ComponentCreator('/language-comparison/es/docs/modules-imports', 'b73'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/null-safety',
-                component: ComponentCreator('/language-comparison/docs/null-safety', '90a'),
+                path: '/language-comparison/es/docs/null-safety',
+                component: ComponentCreator('/language-comparison/es/docs/null-safety', 'f30'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/objects-structs',
-                component: ComponentCreator('/language-comparison/docs/objects-structs', '7df'),
+                path: '/language-comparison/es/docs/objects-structs',
+                component: ComponentCreator('/language-comparison/es/docs/objects-structs', '4b2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/operators',
-                component: ComponentCreator('/language-comparison/docs/operators', 'e16'),
+                path: '/language-comparison/es/docs/operators',
+                component: ComponentCreator('/language-comparison/es/docs/operators', '8e5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/package-management',
-                component: ComponentCreator('/language-comparison/docs/package-management', '668'),
+                path: '/language-comparison/es/docs/package-management',
+                component: ComponentCreator('/language-comparison/es/docs/package-management', '264'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/pattern-matching',
-                component: ComponentCreator('/language-comparison/docs/pattern-matching', 'c90'),
+                path: '/language-comparison/es/docs/pattern-matching',
+                component: ComponentCreator('/language-comparison/es/docs/pattern-matching', '456'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/regex',
-                component: ComponentCreator('/language-comparison/docs/regex', 'a42'),
+                path: '/language-comparison/es/docs/regex',
+                component: ComponentCreator('/language-comparison/es/docs/regex', '97c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/roadmap',
-                component: ComponentCreator('/language-comparison/docs/roadmap', 'eec'),
+                path: '/language-comparison/es/docs/roadmap',
+                component: ComponentCreator('/language-comparison/es/docs/roadmap', '550'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/strings',
-                component: ComponentCreator('/language-comparison/docs/strings', 'ef5'),
+                path: '/language-comparison/es/docs/strings',
+                component: ComponentCreator('/language-comparison/es/docs/strings', 'f69'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/testing',
-                component: ComponentCreator('/language-comparison/docs/testing', 'ddc'),
+                path: '/language-comparison/es/docs/testing',
+                component: ComponentCreator('/language-comparison/es/docs/testing', 'cfe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/language-comparison/docs/variables-types',
-                component: ComponentCreator('/language-comparison/docs/variables-types', 'edb'),
+                path: '/language-comparison/es/docs/variables-types',
+                component: ComponentCreator('/language-comparison/es/docs/variables-types', 'a3e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -241,8 +206,8 @@ export default [
     ]
   },
   {
-    path: '/language-comparison/',
-    component: ComponentCreator('/language-comparison/', 'f95'),
+    path: '/language-comparison/es/',
+    component: ComponentCreator('/language-comparison/es/', 'f9a'),
     exact: true
   },
   {

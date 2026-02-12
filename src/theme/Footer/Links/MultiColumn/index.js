@@ -53,7 +53,7 @@ const icons = {
   ),
 };
 
-const CONNECT_TITLES = ['Connect', 'Conectar'];
+const CONNECT_TITLES = ['Connect', 'Conectar', 'Conexión'];
 
 function ColumnLinkItem({item}) {
   if (item.html) {

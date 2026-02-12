@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate from '@docusaurus/Translate';
 import CodeBlock from '@theme/CodeBlock';
 import styles from './SideBySide.module.css';
 
@@ -34,8 +35,12 @@ export default function SideBySide(props: SideBySideProps): JSX.Element {
     if (!panel) {
       return (
         <div className={styles.column}>
-          <div className={styles.header}>Select a language</div>
-          <div className={styles.empty}>No language selected</div>
+          <div className={styles.header}>
+            <Translate id="sideBySide.selectLanguage">Select a language</Translate>
+          </div>
+          <div className={styles.empty}>
+            <Translate id="sideBySide.noLanguage">No language selected</Translate>
+          </div>
         </div>
       );
     }

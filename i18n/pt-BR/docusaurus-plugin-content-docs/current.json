@@ -3,17 +3,41 @@
     "message": "Próximo",
     "description": "O label para a versão atual"
   },
-  "sidebar.tutorialSidebar.category.Getting Started": {
-    "message": "Começando",
-    "description": "O label para a categoria Começando na sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.doc.roadmap": {
+    "message": "Como Usar Este Guia",
+    "description": "O label para o documento roadmap na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.comparison-matrix": {
+    "message": "Matriz de Comparação de Linguagens",
+    "description": "O label para o documento comparison-matrix na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Basics": {
+    "message": "Fundamentos",
+    "description": "O label para a categoria Basics na sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.getting-started": {
     "message": "Começando",
     "description": "O label para o documento getting-started na sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.comments-documentation": {
+    "message": "Comentários e Documentação",
+    "description": "O label para o documento comments-documentation na sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.variables-types": {
     "message": "Variáveis e Tipos",
     "description": "O label para o documento variables-types na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.operators": {
+    "message": "Operadores",
+    "description": "O label para o documento operators na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.constants-enums": {
+    "message": "Constantes e Enums",
+    "description": "O label para o documento constants-enums na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Control Flow": {
+    "message": "Fluxo de Controle",
+    "description": "O label para a categoria Control Flow na sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.conditionals": {
     "message": "Condicionais",
@@ -23,9 +47,25 @@
     "message": "Loops",
     "description": "O label para o documento loops na sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.pattern-matching": {
+    "message": "Pattern Matching",
+    "description": "O label para o documento pattern-matching na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Functions & Closures": {
+    "message": "Funções e Closures",
+    "description": "O label para a categoria Functions & Closures na sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.functions": {
     "message": "Funções",
     "description": "O label para o documento functions na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.closures-lambdas": {
+    "message": "Closures e Lambdas",
+    "description": "O label para o documento closures-lambdas na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Structures": {
+    "message": "Estruturas de Dados",
+    "description": "O label para a categoria Data Structures na sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.arrays": {
     "message": "Arrays",
@@ -39,12 +79,84 @@
     "message": "Objetos e Structs",
     "description": "O label para o documento objects-structs na sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.maps-dictionaries": {
+    "message": "Maps e Dicionários",
+    "description": "O label para o documento maps-dictionaries na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Object-Oriented Programming": {
+    "message": "Programação Orientada a Objetos",
+    "description": "O label para a categoria Object-Oriented Programming na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.classes-oop": {
+    "message": "Classes e POO",
+    "description": "O label para o documento classes-oop na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.generics-templates": {
+    "message": "Generics e Templates",
+    "description": "O label para o documento generics-templates na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Standard Library": {
+    "message": "Biblioteca Padrão",
+    "description": "O label para a categoria Standard Library na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.regex": {
+    "message": "Regex",
+    "description": "O label para o documento regex na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.dates": {
+    "message": "Datas",
+    "description": "O label para o documento dates na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.file-io": {
+    "message": "Entrada/Saída de Arquivos",
+    "description": "O label para o documento file-io na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.json-serialization": {
+    "message": "JSON e Serialização",
+    "description": "O label para o documento json-serialization na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Web & Network": {
+    "message": "Web e Rede",
+    "description": "O label para a categoria Web & Network na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.crud": {
+    "message": "Operações CRUD",
+    "description": "O label para o documento crud na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Concepts": {
+    "message": "Conceitos Avançados",
+    "description": "O label para a categoria Advanced Concepts na sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.error-handling": {
     "message": "Tratamento de Erros",
     "description": "O label para o documento error-handling na sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.doc.classes-oop": {
-    "message": "Classes e OOP",
-    "description": "O label para o documento classes-oop na sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.doc.null-safety": {
+    "message": "Null Safety e Opcionais",
+    "description": "O label para o documento null-safety na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.concurrency-async": {
+    "message": "Concorrência e Async",
+    "description": "O label para o documento concurrency-async na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.memory-management": {
+    "message": "Gerenciamento de Memória",
+    "description": "O label para o documento memory-management na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tooling & Ecosystem": {
+    "message": "Ferramentas e Ecossistema",
+    "description": "O label para a categoria Tooling & Ecosystem na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.modules-imports": {
+    "message": "Módulos e Imports",
+    "description": "O label para o documento modules-imports na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.package-management": {
+    "message": "Gerenciamento de Pacotes",
+    "description": "O label para o documento package-management na sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.testing": {
+    "message": "Testes",
+    "description": "O label para o documento testing na sidebar tutorialSidebar"
   }
 }

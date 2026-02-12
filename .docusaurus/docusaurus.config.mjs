@@ -8,7 +8,7 @@ export default {
   "tagline": "Compare programming languages side by side",
   "favicon": "img/favicon.ico",
   "url": "https://emersonbraun.github.io",
-  "baseUrl": "/language-comparison/",
+  "baseUrl": "/language-comparison/es/",
   "organizationName": "EmersonBraun",
   "projectName": "language-comparison",
   "onBrokenLinks": "throw",
@@ -58,15 +58,15 @@ export default {
   ],
   "themeConfig": {
     "algolia": {
-      "appId": "demo",
-      "apiKey": "demo",
+      "appId": "YH4FYLVHXK",
+      "apiKey": "d18e8f7e20df7883d03bac285f395f77",
       "indexName": "language-comparison",
       "contextualSearch": false,
       "searchParameters": {},
       "searchPagePath": "search"
     },
     "navbar": {
-      "title": "Home",
+      "title": "Comparación de Lenguajes",
       "logo": {
         "alt": "Language Comparison Logo",
         "src": "img/logo.svg"
@@ -95,16 +95,16 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Documentación",
           "items": [
             {
-              "label": "How to Use This Guide",
+              "label": "Cómo Usar Esta Guía",
               "to": "/docs/roadmap"
             }
           ]
         },
         {
-          "title": "Connect",
+          "title": "Conectar",
           "items": [
             {
               "label": "Website",
@@ -129,7 +129,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Language Comparison. Created by <a href=\"https://www.linkedin.com/in/emerson-braun/\" target=\"_blank\">Emerson Braun</a>"
+      "copyright": "Comparación de Lenguajes. Creado por <a href=\"https://www.linkedin.com/in/emerson-braun/\" target=\"_blank\">Emerson Braun</a>"
     },
     "prism": {
       "theme": {

@@ -3,17 +3,41 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Getting Started": {
-    "message": "Getting Started",
-    "description": "The label for category Getting Started in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.doc.roadmap": {
+    "message": "How to Use This Guide",
+    "description": "The label for document roadmap in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.comparison-matrix": {
+    "message": "Language Comparison Matrix",
+    "description": "The label for document comparison-matrix in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Basics": {
+    "message": "Basics",
+    "description": "The label for category Basics in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.getting-started": {
     "message": "Getting Started",
     "description": "The label for document getting-started in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.comments-documentation": {
+    "message": "Comments & Documentation",
+    "description": "The label for document comments-documentation in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.variables-types": {
     "message": "Variables & Types",
     "description": "The label for document variables-types in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.operators": {
+    "message": "Operators",
+    "description": "The label for document operators in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.constants-enums": {
+    "message": "Constants & Enums",
+    "description": "The label for document constants-enums in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Control Flow": {
+    "message": "Control Flow",
+    "description": "The label for category Control Flow in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.conditionals": {
     "message": "Conditionals",
@@ -23,9 +47,25 @@
     "message": "Loops",
     "description": "The label for document loops in sidebar tutorialSidebar"
   },
+  "sidebar.tutorialSidebar.doc.pattern-matching": {
+    "message": "Pattern Matching",
+    "description": "The label for document pattern-matching in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Functions & Closures": {
+    "message": "Functions & Closures",
+    "description": "The label for category Functions & Closures in sidebar tutorialSidebar"
+  },
   "sidebar.tutorialSidebar.doc.functions": {
     "message": "Functions",
     "description": "The label for document functions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.closures-lambdas": {
+    "message": "Closures & Lambdas",
+    "description": "The label for document closures-lambdas in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Data Structures": {
+    "message": "Data Structures",
+    "description": "The label for category Data Structures in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.arrays": {
     "message": "Arrays",
@@ -39,12 +79,84 @@
     "message": "Objects & Structs",
     "description": "The label for document objects-structs in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.doc.error-handling": {
-    "message": "Error Handling",
-    "description": "The label for document error-handling in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.doc.maps-dictionaries": {
+    "message": "Maps & Dictionaries",
+    "description": "The label for document maps-dictionaries in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Object-Oriented Programming": {
+    "message": "Object-Oriented Programming",
+    "description": "The label for category Object-Oriented Programming in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.doc.classes-oop": {
     "message": "Classes & OOP",
     "description": "The label for document classes-oop in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.generics-templates": {
+    "message": "Generics & Templates",
+    "description": "The label for document generics-templates in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Standard Library": {
+    "message": "Standard Library",
+    "description": "The label for category Standard Library in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.regex": {
+    "message": "Regex",
+    "description": "The label for document regex in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.dates": {
+    "message": "Dates",
+    "description": "The label for document dates in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.file-io": {
+    "message": "File I/O",
+    "description": "The label for document file-io in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.json-serialization": {
+    "message": "JSON & Serialization",
+    "description": "The label for document json-serialization in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Web & Network": {
+    "message": "Web & Network",
+    "description": "The label for category Web & Network in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.crud": {
+    "message": "CRUD Operations",
+    "description": "The label for document crud in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced Concepts": {
+    "message": "Advanced Concepts",
+    "description": "The label for category Advanced Concepts in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.error-handling": {
+    "message": "Error Handling",
+    "description": "The label for document error-handling in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.null-safety": {
+    "message": "Null Safety & Optionals",
+    "description": "The label for document null-safety in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.concurrency-async": {
+    "message": "Concurrency & Async",
+    "description": "The label for document concurrency-async in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.memory-management": {
+    "message": "Memory Management",
+    "description": "The label for document memory-management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tooling & Ecosystem": {
+    "message": "Tooling & Ecosystem",
+    "description": "The label for category Tooling & Ecosystem in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.modules-imports": {
+    "message": "Modules & Imports",
+    "description": "The label for document modules-imports in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.package-management": {
+    "message": "Package Management",
+    "description": "The label for document package-management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.doc.testing": {
+    "message": "Testing",
+    "description": "The label for document testing in sidebar tutorialSidebar"
   }
 }

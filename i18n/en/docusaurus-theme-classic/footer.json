@@ -1,0 +1,38 @@
+{
+  "link.title.Docs": {
+    "message": "Docs",
+    "description": "The title of the footer links column with title=Docs"
+  },
+  "link.title.Connect": {
+    "message": "Connect",
+    "description": "The title of the footer links column with title=Connect"
+  },
+  "link.item.label.How to Use This Guide": {
+    "message": "How to Use This Guide",
+    "description": "The label of footer link with label=How to Use This Guide"
+  },
+  "link.item.label.Website": {
+    "message": "Website",
+    "description": "The label of footer link with label=Website"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn"
+  },
+  "link.item.label.X / Twitter": {
+    "message": "X / Twitter",
+    "description": "The label of footer link with label=X / Twitter"
+  },
+  "link.item.label.Instagram": {
+    "message": "Instagram",
+    "description": "The label of footer link with label=Instagram"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube"
+  },
+  "copyright": {
+    "message": "Language Comparison. Created by <a href=\"https://www.linkedin.com/in/emerson-braun/\" target=\"_blank\">Emerson Braun</a>",
+    "description": "The footer copyright"
+  }
+}

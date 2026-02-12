@@ -1,4 +1,5 @@
 import React from 'react';
+import Translate, {translate} from '@docusaurus/Translate';
 import type { ViewMode } from '../hooks/useLanguageTabs';
 import styles from './CompareSelector.module.css';
 
@@ -27,16 +28,16 @@ export default function CompareSelector({
         <button
           className={`${styles.toggleBtn} ${mode === 'single' ? styles.active : ''}`}
           onClick={() => onModeChange('single')}
-          title="View one language at a time"
+          title={translate({id: 'compare.single.title', message: 'View one language at a time'})}
         >
-          Single
+          <Translate id="compare.single.label">Single</Translate>
         </button>
         <button
           className={`${styles.toggleBtn} ${mode === 'compare' ? styles.active : ''}`}
           onClick={() => onModeChange('compare')}
-          title="Compare two languages side by side"
+          title={translate({id: 'compare.compare.title', message: 'Compare two languages side by side'})}
         >
-          Compare
+          <Translate id="compare.compare.label">Compare</Translate>
         </button>
       </div>
 
@@ -46,7 +47,7 @@ export default function CompareSelector({
             className={styles.select}
             value={left}
             onChange={(e) => onLeftChange(e.target.value)}
-            aria-label="Left language"
+            aria-label={translate({id: 'compare.left.ariaLabel', message: 'Left language'})}
           >
             {languages.map((lang) => (
               <option key={lang} value={lang}>{lang}</option>
@@ -57,7 +58,7 @@ export default function CompareSelector({
             className={styles.select}
             value={right}
             onChange={(e) => onRightChange(e.target.value)}
-            aria-label="Right language"
+            aria-label={translate({id: 'compare.right.ariaLabel', message: 'Right language'})}
           >
             {languages.map((lang) => (
               <option key={lang} value={lang}>{lang}</option>
