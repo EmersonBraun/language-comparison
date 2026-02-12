@@ -1,3 +1,8 @@
+---
+sidebar_position: 13
+description: "Objects, structs, and structured data types compared across 12 programming languages"
+keywords: [objects, structs, structures, properties, methods]
+---
 # Objects & Structs
 
 Different languages have different ways to represent structured data. Here's how objects, structs, and similar constructs work across languages.
@@ -913,5 +918,17 @@ let p = try decoder.decode(Person.self, from: data)`
     }
   ]}
 />
+
+## Key Takeaways
+
+- **Struct vs class vs dictionary** -- Swift, Rust, Go, Zig, and C use structs as primary data containers for named fields. JavaScript, Python, PHP, and Ruby often use plain objects or dictionaries (e.g., `{ name: "John", age: 30 }`) for ad-hoc data. Java and C# favor classes for structured data. Use structs when you need fixed schemas and compile-time checking; use dictionaries when schema is dynamic or you're building configuration or JSON-like data.
+
+- **Value vs reference semantics** -- Swift structs and Rust structs are value types: `let b = a` copies the data. Java, C#, and JavaScript objects are reference types: `b = a` shares the same instance. Go structs are values but are commonly passed as pointers (`*Person`) for mutation. Value semantics avoid accidental shared mutation; reference semantics reduce copying. Choose value types (Swift, Rust) for predictable behavior and thread safety; reference types when you need shared mutable state.
+
+- **Method attachment** -- Rust uses `impl Person { fn greet(&self) {...} }`; Go uses receiver syntax `func (p Person) Greet() string`; Zig embeds functions inside structs. JavaScript and Python attach methods to classes. C uses external functions like `greet(&person)`. The pattern affects how you organize code: `impl` blocks co-locate logic with data in Rust; Go separates methods from type definitions. Prefer languages with method syntax when building domain models.
+
+- **Lightweight alternatives** -- Python's `@dataclass`, C#'s `record`, and Java's `record` provide compact definitions for data holders without boilerplate. JavaScript and Ruby use object literals or hashes. For DTOs, config objects, or API payloads, prefer dataclasses or records; for rich business logic, use full classes or structs with methods.
+
+- **Serialization and reflection** -- Rust and Go use struct tags (`#[derive(Serialize)]`, `` `json:"name"` ``) for JSON. Python's `dataclass` and `asdict()` make serialization easy. C and Zig require manual mapping. If you frequently serialize to JSON or other formats, favor languages with built-in support (Go, Rust with serde, Python, C#); for minimal runtime, C or Zig may be acceptable.
 
 

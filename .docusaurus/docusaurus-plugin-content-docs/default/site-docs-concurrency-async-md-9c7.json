@@ -1,0 +1,37 @@
+{
+  "id": "concurrency-async",
+  "title": "Concurrency & Async",
+  "description": "Concurrency models -- async/await, threads, goroutines, and actors across 12 languages",
+  "source": "@site/docs/concurrency-async.md",
+  "sourceDirName": ".",
+  "slug": "/concurrency-async",
+  "permalink": "/language-comparison/docs/concurrency-async",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/concurrency-async.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 24,
+  "frontMatter": {
+    "sidebar_position": 24,
+    "description": "Concurrency models -- async/await, threads, goroutines, and actors across 12 languages",
+    "keywords": [
+      "concurrency",
+      "async",
+      "await",
+      "threads",
+      "goroutines",
+      "actors",
+      "parallel"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Null Safety & Optionals",
+    "permalink": "/language-comparison/docs/null-safety"
+  },
+  "next": {
+    "title": "Memory Management",
+    "permalink": "/language-comparison/docs/memory-management"
+  }
+}

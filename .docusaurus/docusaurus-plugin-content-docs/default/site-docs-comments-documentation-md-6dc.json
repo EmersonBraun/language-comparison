@@ -1,0 +1,36 @@
+{
+  "id": "comments-documentation",
+  "title": "Comments & Documentation",
+  "description": "How to write comments and documentation in JavaScript, Python, Rust, Go, and 8 more languages",
+  "source": "@site/docs/comments-documentation.md",
+  "sourceDirName": ".",
+  "slug": "/comments-documentation",
+  "permalink": "/language-comparison/docs/comments-documentation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/comments-documentation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "How to write comments and documentation in JavaScript, Python, Rust, Go, and 8 more languages",
+    "keywords": [
+      "comments",
+      "documentation",
+      "JSDoc",
+      "Javadoc",
+      "docstring",
+      "Doxygen"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/language-comparison/docs/getting-started"
+  },
+  "next": {
+    "title": "Variables & Types",
+    "permalink": "/language-comparison/docs/variables-types"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "roadmap",
+  "title": "How to Use This Guide",
+  "description": "Welcome to the Language Comparison Guide! This resource helps developers understand how different programming concepts are implemented across 12 popular languages.",
+  "source": "@site/docs/roadmap.md",
+  "sourceDirName": ".",
+  "slug": "/roadmap",
+  "permalink": "/language-comparison/docs/roadmap",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/roadmap.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "sidebar_position": 0
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Language Comparison Matrix",
+    "permalink": "/language-comparison/docs/comparison-matrix"
+  }
+}

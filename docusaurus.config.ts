@@ -1,6 +1,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import 'dotenv/config';
 
 const config: Config = {
   title: 'Language Comparison',
@@ -64,12 +65,11 @@ const config: Config = {
   themeConfig: {
     // Algolia config - replace with your actual Algolia credentials
     algolia: {
-      appId: 'YOUR_APP_ID',
-      apiKey: 'YOUR_SEARCH_API_KEY',
+      appId: process.env.ALGOLIA_APP_ID || 'demo',
+      apiKey: process.env.ALGOLIA_API_KEY || 'demo',
       indexName: 'language-comparison',
-      contextualSearch: true,
+      contextualSearch: false,
       searchParameters: {},
-      searchPagePath: 'search',
     },
     navbar: {
       title: 'Home',
@@ -103,35 +103,23 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
-              to: '/docs/getting-started',
+              label: 'How to Use This Guide',
+              to: '/docs/roadmap',
             },
           ],
         },
         {
-          title: 'Author Social Links',
+          title: 'Connect',
           items: [
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/in/emersonbraun',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/emersonbraun',
-            },
-          ],
-        },
-        {
-          title: 'Tired of failing technical interviews?',
-          items: [
-            {
-              label: 'Get my FREE e-book',
-              href: '#',
-            },
+            { label: 'Website', href: 'https://emersonbraun.dev/' },
+            { label: 'LinkedIn', href: 'https://www.linkedin.com/in/emerson-braun/' },
+            { label: 'X / Twitter', href: 'https://x.com/EmersonfBraun' },
+            { label: 'Instagram', href: 'https://www.instagram.com/emerson.braun.dev/' },
+            { label: 'YouTube', href: 'https://www.youtube.com/@emerson.braun_dev' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Language Comparison. Created by Emerson Braun.`,
+      copyright: `Language Comparison. Created by <a href="https://www.linkedin.com/in/emerson-braun/" target="_blank">Emerson Braun</a>`,
     },
     prism: {
       theme: prismThemes.github,

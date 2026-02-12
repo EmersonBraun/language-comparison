@@ -1,3 +1,8 @@
+---
+sidebar_position: 9
+description: "Function declarations, parameters, return values, and overloading across 12 languages"
+keywords: [functions, parameters, return values, overloading, default parameters]
+---
 # Functions
 
 Functions are blocks of reusable code. Here's how different languages define and call functions.
@@ -462,5 +467,11 @@ numbers.map { $0 * 2 }`
     }
   ]}
 />
+
+## Key Takeaways
+
+- **Declaration styles** -- `function` (JavaScript, PHP), `def` (Python, Ruby), `fn` (Rust, Zig), `func` (Go, Swift). Arrow functions and lambdas are common in modern languages.
+- **Parameter passing** -- Defaults supported in most; variadic via `*args`/`**kwargs` (Python), `...` (PHP, Go, Swift, C), `params` (C#). Zig uses `!` for fallible returns.
+- **Return values** -- Go allows multiple returns; Rust uses `Result`/`Option`; Zig uses error unions; Python/Ruby allow implicit returns of the last expression.
 
 

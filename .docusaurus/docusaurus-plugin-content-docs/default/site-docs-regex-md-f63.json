@@ -1,24 +1,35 @@
 {
   "id": "regex",
   "title": "Regex",
-  "description": "Regular expressions (regex) are powerful tools for pattern matching and text manipulation. Here's how different languages handle regex operations.",
+  "description": "Regular expressions and pattern matching compared across 12 programming languages",
   "source": "@site/docs/regex.md",
   "sourceDirName": ".",
   "slug": "/regex",
-  "permalink": "/docs/regex",
+  "permalink": "/language-comparison/docs/regex",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/regex.md",
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/regex.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 17,
+  "frontMatter": {
+    "sidebar_position": 17,
+    "description": "Regular expressions and pattern matching compared across 12 programming languages",
+    "keywords": [
+      "regex",
+      "regular expressions",
+      "pattern matching",
+      "search",
+      "replace"
+    ]
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Strings",
-    "permalink": "/docs/strings"
+    "title": "Generics & Templates",
+    "permalink": "/language-comparison/docs/generics-templates"
   },
   "next": {
     "title": "Dates",
-    "permalink": "/docs/dates"
+    "permalink": "/language-comparison/docs/dates"
   }
 }

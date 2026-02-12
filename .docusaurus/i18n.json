@@ -15,8 +15,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": true,
-      "url": "https://your-docusaurus-site.example.com",
-      "baseUrl": "/"
+      "url": "https://emersonbraun.github.io",
+      "baseUrl": "/language-comparison/"
     },
     "pt-BR": {
       "label": "Português (Brasil)",
@@ -25,8 +25,8 @@
       "calendar": "gregory",
       "path": "pt-BR",
       "translate": true,
-      "url": "https://your-docusaurus-site.example.com",
-      "baseUrl": "/pt-BR/"
+      "url": "https://emersonbraun.github.io",
+      "baseUrl": "/language-comparison/pt-BR/"
     },
     "es": {
       "label": "Español",
@@ -35,8 +35,8 @@
       "calendar": "gregory",
       "path": "es",
       "translate": true,
-      "url": "https://your-docusaurus-site.example.com",
-      "baseUrl": "/es/"
+      "url": "https://emersonbraun.github.io",
+      "baseUrl": "/language-comparison/es/"
     }
   }
 }

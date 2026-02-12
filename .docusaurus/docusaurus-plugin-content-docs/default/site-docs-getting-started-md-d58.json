@@ -1,20 +1,35 @@
 {
   "id": "getting-started",
   "title": "Getting Started",
-  "description": "Every programming language has its own way to start. Here's how to create a simple \"Hello, World!\" program in each language.",
+  "description": "Overview of 12 programming languages -- paradigms, typing, execution models, and Hello World examples",
   "source": "@site/docs/getting-started.md",
   "sourceDirName": ".",
   "slug": "/getting-started",
-  "permalink": "/docs/getting-started",
+  "permalink": "/language-comparison/docs/getting-started",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/getting-started.md",
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/getting-started.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Overview of 12 programming languages -- paradigms, typing, execution models, and Hello World examples",
+    "keywords": [
+      "programming languages",
+      "comparison",
+      "hello world",
+      "getting started",
+      "overview"
+    ]
+  },
   "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Language Comparison Matrix",
+    "permalink": "/language-comparison/docs/comparison-matrix"
+  },
   "next": {
-    "title": "Variables & Types",
-    "permalink": "/docs/variables-types"
+    "title": "Comments & Documentation",
+    "permalink": "/language-comparison/docs/comments-documentation"
   }
 }

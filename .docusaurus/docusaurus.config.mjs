@@ -7,9 +7,9 @@ export default {
   "title": "Language Comparison",
   "tagline": "Compare programming languages side by side",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
-  "organizationName": "your-org",
+  "url": "https://emersonbraun.github.io",
+  "baseUrl": "/language-comparison/",
+  "organizationName": "EmersonBraun",
   "projectName": "language-comparison",
   "onBrokenLinks": "throw",
   "i18n": {
@@ -47,7 +47,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.ts",
-          "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/"
+          "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/"
         },
         "blog": false,
         "theme": {
@@ -58,10 +58,10 @@ export default {
   ],
   "themeConfig": {
     "algolia": {
-      "appId": "YOUR_APP_ID",
-      "apiKey": "YOUR_SEARCH_API_KEY",
+      "appId": "demo",
+      "apiKey": "demo",
       "indexName": "language-comparison",
-      "contextualSearch": true,
+      "contextualSearch": false,
       "searchParameters": {},
       "searchPagePath": "search"
     },
@@ -98,35 +98,38 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Getting Started",
-              "to": "/docs/getting-started"
+              "label": "How to Use This Guide",
+              "to": "/docs/roadmap"
             }
           ]
         },
         {
-          "title": "Author Social Links",
+          "title": "Connect",
           "items": [
             {
-              "label": "LinkedIn",
-              "href": "https://www.linkedin.com/in/emersonbraun"
+              "label": "Website",
+              "href": "https://emersonbraun.dev/"
             },
             {
-              "label": "X",
-              "href": "https://x.com/emersonbraun"
-            }
-          ]
-        },
-        {
-          "title": "Tired of failing technical interviews?",
-          "items": [
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/emerson-braun/"
+            },
             {
-              "label": "Get my FREE e-book",
-              "href": "#"
+              "label": "X / Twitter",
+              "href": "https://x.com/EmersonfBraun"
+            },
+            {
+              "label": "Instagram",
+              "href": "https://www.instagram.com/emerson.braun.dev/"
+            },
+            {
+              "label": "YouTube",
+              "href": "https://www.youtube.com/@emerson.braun_dev"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2025 Language Comparison. Created by Emerson Braun."
+      "copyright": "Language Comparison. Created by <a href=\"https://www.linkedin.com/in/emerson-braun/\" target=\"_blank\">Emerson Braun</a>"
     },
     "prism": {
       "theme": {

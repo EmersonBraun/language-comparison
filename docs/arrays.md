@@ -1,3 +1,8 @@
+---
+sidebar_position: 11
+description: "Arrays, lists, slices, and collection operations compared across 12 programming languages"
+keywords: [arrays, lists, slices, collections, map, filter, reduce]
+---
 # Arrays
 
 Arrays and lists are fundamental data structures. Here's how different languages handle array creation, manipulation, and iteration.
@@ -539,5 +544,17 @@ let sorted = arr.sorted(by: >)`
     }
   ]}
 />
+
+## Key Takeaways
+
+- **Fixed vs dynamic** -- C, Zig, and Go use fixed-size arrays (e.g., `int arr[3]` in C, `var arr = [_]i32{1,2,3}` in Zig). JavaScript, Python, Ruby, and PHP use dynamic lists by default. Rust offers both: `[T; N]` for fixed size and `Vec<T>` for dynamic. Choose fixed arrays when size is known at compile time and you want stack allocation; use dynamic structures when the size varies at runtime or you need frequent resizing.
+
+- **Slices** -- Go slices (`[]int`) are the primary dynamic type and reference underlying arrays. Rust and Zig use slice references (`&[T]`) for zero-copy views. Python and C# use slice syntax (`arr[1:3]`, `arr[1..3]`) for subarrays. Slices avoid copying data—essential for performance when passing subranges. Prefer languages with slice support when building parsers, stream processors, or APIs that frequently pass array segments.
+
+- **Map, filter, reduce** -- JavaScript, Python, Ruby, and Swift provide built-in `map`, `filter`, and `reduce` methods. C# uses LINQ (`Select`, `Where`, `Aggregate`). Java uses Streams. Go and C require manual loops. Choose languages with first-class functional primitives when doing data transformation pipelines; otherwise, expect more verbose imperative code.
+
+- **Add/remove operations** -- Most languages use `push`/`pop` for end operations (e.g., `arr.push(4)` in JavaScript, `vec.push(4)` in Rust). Go uses `append(arr, 4)` and slicing for removal. Zig's `ArrayList` requires explicit allocation and `try list.append(4)`. Consider API ergonomics: if you need frequent insertions at arbitrary positions, Python's `list.insert()` or Ruby's `arr.unshift` may be simpler than C's manual reallocation.
+
+- **Functional style vs manual loops** -- Languages like JavaScript and Python let you chain `arr.map(x => x*2).filter(x => x > 0)`. Go and C force explicit loops. Java Streams bridge the gap with `.map().filter().collect()`. If your team prefers declarative code, favor JavaScript, Python, or Java; for maximum control and minimal abstraction, C or Go works better.
 
 

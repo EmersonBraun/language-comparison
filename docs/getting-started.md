@@ -1,3 +1,9 @@
+---
+sidebar_position: 1
+description: "Overview of 12 programming languages -- paradigms, typing, execution models, and Hello World examples"
+keywords: [programming languages, comparison, hello world, getting started, overview]
+---
+
 # Getting Started
 
 Every programming language has its own way to start. Here's how to create a simple "Hello, World!" program in each language.
@@ -442,4 +448,15 @@ java HelloWorld`
   ]}
 />
 
+## Key Takeaways
+
+- **Paradigm diversity** -- Languages span from procedural (C) to multi-paradigm (JavaScript, Python, Rust) to systems-focused (Zig). For example, C keeps you close to the machine with a minimal procedural model, while Rust and Swift blend systems programming with functional and object-oriented features. JavaScript and Python support multiple paradigms: you can write imperative, OOP, or functional code in the same file. When choosing a language, pick C or Zig for low-level control; Rust, Go, or Swift for systems performance with modern ergonomics; and JavaScript, Python, or Ruby for rapid iteration and broad ecosystem support.
+
+- **Typing systems** -- Compiled languages (Rust, Go, C++, Java, Swift, Zig) are statically typed, meaning type errors are caught before the program runs. Interpreted languages (JavaScript, Python, PHP, Ruby) are dynamically typed, so you can reassign variables to different types (`let x = 42; x = "hello"` in JavaScript). Static typing gives stronger guarantees and better IDE support; dynamic typing favors fast prototyping. For large, long-lived codebases, prefer Rust, Go, Java, or C#; for scripts and prototypes, Python or JavaScript often suffice.
+
+- **Execution models** -- Compiled languages (C, C++, Rust, Go, Zig, Swift) produce native machine code; you run the binary directly. JavaScript uses Node.js or the browser; Java uses the JVM; C# uses the .NET runtime. Python and Ruby use interpreters that execute source line-by-line. Compiled binaries start fast and often run faster; runtime-based languages offer cross-platform ease and dynamic features. Choose compiled languages for performance-critical or standalone deployments; choose runtimes for web backends and cross-platform apps.
+
+- **Entry point requirements** -- C-style languages require an explicit `main()` (e.g., `fn main()` in Rust, `func main()` in Go, `int main()` in C). Python and Ruby execute top-level code from the first line; `print("Hello")` at the top of a file runs immediately. Go uniquely requires both `package main` and `func main()` in the same package. Java and C# tie entry points to a class (`public static void main`). When switching languages, note these differences: some expect a single entry function, others run scripts top-to-bottom.
+
+- **Setup and verification** -- Each language has its own installer and version command: `node --version`, `python3 --version`, `rustc --version`, `go version`, etc. Use these to confirm your environment before coding. For systems languages (C, C++, Rust, Zig), you typically compile then run; for interpreted or runtime-based languages, you run the source or bytecode directly. Prefer the official installers (e.g., rustup for Rust, SDK installers for .NET and Java) for the smoothest experience.
 

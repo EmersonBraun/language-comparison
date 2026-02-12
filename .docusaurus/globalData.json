@@ -1,78 +1,163 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/docs",
+      "path": "/language-comparison/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/docs",
-          "mainDocId": "getting-started",
+          "path": "/language-comparison/docs",
+          "mainDocId": "roadmap",
           "docs": [
             {
               "id": "arrays",
-              "path": "/docs/arrays",
+              "path": "/language-comparison/docs/arrays",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "classes-oop",
-              "path": "/docs/classes-oop",
+              "path": "/language-comparison/docs/classes-oop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "closures-lambdas",
+              "path": "/language-comparison/docs/closures-lambdas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "comments-documentation",
+              "path": "/language-comparison/docs/comments-documentation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "comparison-matrix",
+              "path": "/language-comparison/docs/comparison-matrix",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "concurrency-async",
+              "path": "/language-comparison/docs/concurrency-async",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "conditionals",
-              "path": "/docs/conditionals",
+              "path": "/language-comparison/docs/conditionals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "constants-enums",
+              "path": "/language-comparison/docs/constants-enums",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "crud",
-              "path": "/docs/crud",
+              "path": "/language-comparison/docs/crud",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "dates",
-              "path": "/docs/dates",
+              "path": "/language-comparison/docs/dates",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "error-handling",
-              "path": "/docs/error-handling",
+              "path": "/language-comparison/docs/error-handling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "file-io",
+              "path": "/language-comparison/docs/file-io",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "functions",
-              "path": "/docs/functions",
+              "path": "/language-comparison/docs/functions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "generics-templates",
+              "path": "/language-comparison/docs/generics-templates",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started",
-              "path": "/docs/getting-started",
+              "path": "/language-comparison/docs/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "json-serialization",
+              "path": "/language-comparison/docs/json-serialization",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "loops",
-              "path": "/docs/loops",
+              "path": "/language-comparison/docs/loops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "maps-dictionaries",
+              "path": "/language-comparison/docs/maps-dictionaries",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "memory-management",
+              "path": "/language-comparison/docs/memory-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "modules-imports",
+              "path": "/language-comparison/docs/modules-imports",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "null-safety",
+              "path": "/language-comparison/docs/null-safety",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "objects-structs",
-              "path": "/docs/objects-structs",
+              "path": "/language-comparison/docs/objects-structs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "operators",
+              "path": "/language-comparison/docs/operators",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "package-management",
+              "path": "/language-comparison/docs/package-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pattern-matching",
+              "path": "/language-comparison/docs/pattern-matching",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "regex",
-              "path": "/docs/regex",
+              "path": "/language-comparison/docs/regex",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roadmap",
+              "path": "/language-comparison/docs/roadmap",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "strings",
-              "path": "/docs/strings",
+              "path": "/language-comparison/docs/strings",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "testing",
+              "path": "/language-comparison/docs/testing",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "variables-types",
-              "path": "/docs/variables-types",
+              "path": "/language-comparison/docs/variables-types",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -80,8 +165,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/getting-started",
-                "label": "Getting Started"
+                "path": "/language-comparison/docs/roadmap",
+                "label": "How to Use This Guide"
               }
             }
           }

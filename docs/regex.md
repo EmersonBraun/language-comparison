@@ -1,3 +1,9 @@
+---
+sidebar_position: 17
+description: "Regular expressions and pattern matching compared across 12 programming languages"
+keywords: [regex, regular expressions, pattern matching, search, replace]
+---
+
 # Regex
 
 Regular expressions (regex) are powerful tools for pattern matching and text manipulation. Here's how different languages handle regex operations.
@@ -954,4 +960,14 @@ try NSRegularExpression(pattern: "^[a-zA-Z0-9]+$")`
     }
   ]}
 />
+
+## Key Takeaways
+
+- **Built-in vs library support** — JavaScript (`/pattern/` or `new RegExp`), Python (`re` module), Ruby (`/pattern/`), Java (`Pattern`/`Matcher`), C# (`Regex`), C++ (`<regex>`), and Go (`regexp`) include regex in the standard library. C requires POSIX `regex.h` or a library like PCRE; Zig has no built-in regex and typically uses external libraries; Rust needs the `regex` crate. If you're building a project that heavily uses pattern matching, prefer a language with built-in support; for systems or embedded work, factor in library dependencies.
+
+- **Syntax variations** — Most languages use PCRE-style patterns. JavaScript and Ruby allow literal syntax: `/hello/i` for case-insensitive. Go and Rust use string-based patterns: `Regex::new(r"(?i)hello")` in Rust or `regexp.Compile("(?i)hello")` in Go. Replace operations also differ: Ruby's `"hello hello".gsub(/hello/, "Hi")` vs. Python's `re.sub(r"hello", "Hi", text)`. When porting regex between languages, watch for escaping differences—especially in string literals where backslashes may need doubling.
+
+- **Capture groups** — Named groups `(?<first>\w+) (?<last>\w+)` are supported in JavaScript, PHP, Rust, Python, C#, Java, and Ruby, giving clean access like `match.groups.first` or `caps["first"]`. C's POSIX regex provides `regmatch_t` for positional groups but not named groups; Swift's `NSRegularExpression` exposes ranges by index, requiring manual extraction. For parsing structured text (e.g., log lines, config files), prefer a language with named group support to keep code readable.
+
+- **API ergonomics** — Ruby and JavaScript offer the most concise syntax: `"Hello World" =~ /hello/i` returns the match index; `"hello hello".gsub(/hello/, "Hi")` does replace-all in one line. C, C++, and Swift require more boilerplate: opening files, iterating with `sregex_iterator`, converting `NSRange` to `String` indices. For quick text processing and scripting, choose Ruby, Python, or JavaScript; for performance-critical or low-level code, accept the verbosity of C/C++ or the explicit APIs of Rust and Go.
 

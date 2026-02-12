@@ -1,24 +1,35 @@
 {
   "id": "functions",
   "title": "Functions",
-  "description": "Functions are blocks of reusable code. Here's how different languages define and call functions.",
+  "description": "Function declarations, parameters, return values, and overloading across 12 languages",
   "source": "@site/docs/functions.md",
   "sourceDirName": ".",
   "slug": "/functions",
-  "permalink": "/docs/functions",
+  "permalink": "/language-comparison/docs/functions",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/functions.md",
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/functions.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "description": "Function declarations, parameters, return values, and overloading across 12 languages",
+    "keywords": [
+      "functions",
+      "parameters",
+      "return values",
+      "overloading",
+      "default parameters"
+    ]
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Loops",
-    "permalink": "/docs/loops"
+    "title": "Pattern Matching",
+    "permalink": "/language-comparison/docs/pattern-matching"
   },
   "next": {
-    "title": "Arrays",
-    "permalink": "/docs/arrays"
+    "title": "Closures & Lambdas",
+    "permalink": "/language-comparison/docs/closures-lambdas"
   }
 }

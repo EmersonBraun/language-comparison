@@ -1,0 +1,38 @@
+{
+  "id": "package-management",
+  "title": "Package Management",
+  "description": "Package managers and dependency management compared across 12 programming languages",
+  "source": "@site/docs/package-management.md",
+  "sourceDirName": ".",
+  "slug": "/package-management",
+  "permalink": "/language-comparison/docs/package-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/package-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 27,
+  "frontMatter": {
+    "sidebar_position": 27,
+    "description": "Package managers and dependency management compared across 12 programming languages",
+    "keywords": [
+      "package management",
+      "npm",
+      "pip",
+      "cargo",
+      "go mod",
+      "NuGet",
+      "Maven",
+      "dependencies"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Modules & Imports",
+    "permalink": "/language-comparison/docs/modules-imports"
+  },
+  "next": {
+    "title": "Testing",
+    "permalink": "/language-comparison/docs/testing"
+  }
+}

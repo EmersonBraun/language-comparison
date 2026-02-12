@@ -1,3 +1,9 @@
+---
+sidebar_position: 22
+description: "Error handling patterns -- exceptions, Result types, and error returns across 12 languages"
+keywords: [error handling, exceptions, try-catch, Result type, error patterns]
+---
+
 # Error Handling
 
 Error handling mechanisms vary significantly across languages. Here's how different languages handle errors and exceptions.
@@ -554,5 +560,17 @@ func processFile() {
     }
   ]}
 />
+
+## Key Takeaways
+
+- **Exceptions vs error returns** -- JavaScript, Python, PHP, Ruby, Java, C#, C++, and Swift use try/catch-style exceptions: you `throw` or `raise` and optionally `catch` downstream. Go and Zig use explicit error returns: Go's `result, err := divide(10, 2)` and Zig's `const result = divide(10, 2) catch |err| { ... }`. Rust uses `Result<T, E>` and `Option<T>` in the type system. C uses return codes (`int divide(..., double* result)` returning 0 or -1) and `errno`. Exceptions allow errors to propagate across call stacks implicitly; error returns force each call site to decide. Choose exceptions when you want centralized handling; choose error returns when you want explicit control flow and fewer surprises.
+
+- **Result/Option types** -- Rust's `Result<T, E>` and Zig's `!T` error unions encode errors in the type system. For example, `fn divide(a: f64, b: f64) -> Result<f64, String>` in Rust forces callers to handle `Ok` and `Err` via `match`, `?`, or `.unwrap()`. Zig's `fn divide(a: f64, b: f64) !f64` returns either a value or an error from a compile-time error set. Swift's `Result<String, NetworkError>` is optional but common for async code. Go's `(value, error)` is idiomatic and checked with `if err != nil`. Result types make "this can fail" visible in signatures. Prefer Rust or Zig when you want compile-time guarantees that errors are handled.
+
+- **Compiler-enforced handling** -- Rust and Zig require explicit handling of errors: you must use `match`, `?`, `try`, or `catch`, or the code will not compile. For example, `let contents = File::open(path)?;` in Rust propagates errors; ignoring the `?` would require `unwrap()` or `expect()`, which is explicit. In Python, Java, or JavaScript, you can call a throwing function without a try/catch and the error will propagate (or crash) silently until caught. If your priority is eliminating unhandled errors at compile time, choose Rust or Zig; if you prefer flexibility and centralized handlers, use exception-based languages.
+
+- **Error propagation and wrapping** -- Go 1.13+ supports `fmt.Errorf("failed: %w", err)` for wrapping and `errors.Is(err, ErrNotFound)` for checking. Rust's `?` operator propagates errors while preserving the conversion via `From`. Python uses `raise RuntimeError("failed") from e` for chaining. Java and C# support exception chaining with `initCause`. Wrapping preserves context when errors bubble up. Choose languages with good wrapping support when building layered systems where errors cross many boundaries.
+
+- **Resource cleanup** -- RAII (C++), `defer` (Go, Zig), `using` (C#), `try-with-resources` (Java), and `with` (Python) ensure cleanup even when errors occur. For example, Zig's `defer file.close()` and C#'s `using var file = new FileStream(...)` guarantee disposal. C has no built-in mechanism; you must use `goto cleanup` or nested conditionals. Prefer languages with structured cleanup when managing files, connections, or locks to avoid leaks on error paths.
 
 

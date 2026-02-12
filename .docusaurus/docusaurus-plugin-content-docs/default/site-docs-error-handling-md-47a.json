@@ -1,24 +1,35 @@
 {
   "id": "error-handling",
   "title": "Error Handling",
-  "description": "Error handling mechanisms vary significantly across languages. Here's how different languages handle errors and exceptions.",
+  "description": "Error handling patterns -- exceptions, Result types, and error returns across 12 languages",
   "source": "@site/docs/error-handling.md",
   "sourceDirName": ".",
   "slug": "/error-handling",
-  "permalink": "/docs/error-handling",
+  "permalink": "/language-comparison/docs/error-handling",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/error-handling.md",
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/error-handling.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 22,
+  "frontMatter": {
+    "sidebar_position": 22,
+    "description": "Error handling patterns -- exceptions, Result types, and error returns across 12 languages",
+    "keywords": [
+      "error handling",
+      "exceptions",
+      "try-catch",
+      "Result type",
+      "error patterns"
+    ]
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Objects & Structs",
-    "permalink": "/docs/objects-structs"
+    "title": "CRUD Operations",
+    "permalink": "/language-comparison/docs/crud"
   },
   "next": {
-    "title": "Classes & OOP",
-    "permalink": "/docs/classes-oop"
+    "title": "Null Safety & Optionals",
+    "permalink": "/language-comparison/docs/null-safety"
   }
 }

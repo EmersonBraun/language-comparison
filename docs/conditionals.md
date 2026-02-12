@@ -1,3 +1,9 @@
+---
+sidebar_position: 6
+description: "If/else, switch, match, and ternary operators compared across 12 programming languages"
+keywords: [conditionals, if else, switch, match, ternary, control flow]
+---
+
 # Conditionals
 
 Conditional statements allow your program to make decisions. Here's how if/else and switch statements work across different languages.
@@ -588,4 +594,14 @@ default:
   ]}
 />
 
+## Key Takeaways
 
+- **If/else syntax** -- C-family languages (C, C++, Java, JavaScript, C#) use braces and `else if`; Python uses `elif` with colon-and-indent; Ruby uses `elsif` and `end`; PHP uses `elseif` (one word). The Python-style `if cond:` without braces reduces noise but requires consistent indentation. If you prefer explicit block delimiters and come from C/Java, choose a brace-based language; if you value conciseness and readability, Python or Ruby may feel cleaner.
+
+- **Switch vs match** -- C-style `switch` (C, C++, Java, JavaScript, PHP) requires `break` to prevent fallthrough; forgetting it is a common bug. Rust's `match` is expression-based—it returns a value and has no fallthrough, so `let x = match n { 1 => "one", _ => "other" };` is idiomatic. Python 3.10+ and C# 8+ add `match`/`switch` expressions with pattern matching. For multi-branch logic, prefer Rust or Swift `match` when exhaustiveness matters; use C-style `switch` when you need explicit fallthrough or work in legacy codebases.
+
+- **Ternary operators** -- Most languages use `cond ? a : b` (C, C++, Java, JavaScript, C#, Swift, PHP). Go deliberately omits `?:` and uses `if cond { a } else { b }` for assignment, favoring clarity over brevity. Python uses `a if cond else b` (condition in the middle). Rust and Zig use `if` as expressions: `let x = if cond { a } else { b };`. If you want compact inline conditionals, use ternary; if you prefer Go-style explicitness, avoid nested ternaries and favor simple if/else blocks.
+
+- **Expression vs statement** -- In Rust, Zig, and Ruby, `if` can be an expression that yields a value; C, Java, and Go treat `if` as a statement only. JavaScript uses ternary for expressions. This affects how you assign conditionally: Rust allows `let grade = if score >= 90 { "A" } else { "B" };` without a separate variable and multiple assignments. Choose expression-based languages when you want to avoid mutable state and write more declarative code.
+
+- **When to choose which** -- For systems programming or maximum explicitness, Go's if/else and lack of ternary reduce surprises. For functional-style, expression-oriented code, Rust and Zig shine. For rapid prototyping and readability, Python's `elif` and `a if cond else b` are approachable. For enterprise or web backends, C#, Java, and PHP offer familiar C-style conditionals with good tooling.

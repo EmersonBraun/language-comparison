@@ -1,0 +1,35 @@
+{
+  "id": "closures-lambdas",
+  "title": "Closures & Lambdas",
+  "description": "Closures, lambdas, anonymous functions, and higher-order functions across 12 languages",
+  "source": "@site/docs/closures-lambdas.md",
+  "sourceDirName": ".",
+  "slug": "/closures-lambdas",
+  "permalink": "/language-comparison/docs/closures-lambdas",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/closures-lambdas.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "description": "Closures, lambdas, anonymous functions, and higher-order functions across 12 languages",
+    "keywords": [
+      "closures",
+      "lambdas",
+      "anonymous functions",
+      "higher-order functions",
+      "callbacks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Functions",
+    "permalink": "/language-comparison/docs/functions"
+  },
+  "next": {
+    "title": "Arrays",
+    "permalink": "/language-comparison/docs/arrays"
+  }
+}

@@ -1,3 +1,9 @@
+---
+sidebar_position: 15
+description: "Classes, inheritance, interfaces, and polymorphism compared across 12 programming languages"
+keywords: [classes, OOP, inheritance, interfaces, polymorphism, object-oriented]
+---
+
 # Classes & OOP
 
 Object-Oriented Programming concepts vary across languages. Here's how classes, inheritance, interfaces, and polymorphism work in different languages.
@@ -697,4 +703,13 @@ func animalSound(_ animal: Animal) -> String {
   ]}
 />
 
+## Key Takeaways
+
+- **Inheritance models** — Java, C#, C++, PHP, Ruby, Swift, and JavaScript use class-based single inheritance with `extends` or `:` syntax; for example, `class Student extends Person` in Java or `class Student(Person)` in Python. Go rejects inheritance entirely and uses embedding instead: `type Student struct { Person; school string }` embeds Person's fields and methods directly. Rust has no inheritance at all—only traits that types implement. Choose Go or Rust when you want composition over hierarchy; choose Java/C#/Swift when you need clear class taxonomies and method overriding.
+
+- **Interface patterns** — Java, C#, Swift, and PHP require explicit `implements` declarations: `class Dog implements Animal`. Go uses structural typing: any type with a `MakeSound() string` method satisfies `type Animal interface { MakeSound() string }` without declaring it. Python and Ruby rely on duck typing—if it has `make_sound()`, it works. Rust's traits work like interfaces: `impl Animal for Dog { fn make_sound(&self) -> String { ... } }`. C and Zig simulate interfaces via structs of function pointers. Prefer Go-style implicit interfaces for flexibility; prefer explicit interfaces when you want compile-time contract enforcement.
+
+- **OOP philosophy** — Traditional OOP (Java, C#, C++) centers on classes, inheritance hierarchies, and `virtual`/`override` for polymorphism. Go and Rust favor composition and traits: "prefer composition over inheritance." JavaScript and Python are multi-paradigm—you can use classes or avoid them entirely. If you're building domain models with clear hierarchies (e.g., `Vehicle` → `Car` → `ElectricCar`), Java/C#/Swift excel. If you want flat, composable designs with minimal ceremony, choose Go or Rust.
+
+- **Memory and lifecycle** — C++ and Rust require explicit attention to object lifecycle: C++ uses `virtual` destructors and RAII; Rust's ownership prevents dangling references. Java, C#, PHP, Ruby, Python, and JavaScript use garbage collection, so you rarely manage object lifetime. Go uses lightweight GC. For systems programming or performance-critical code, Rust and C++ give you control; for rapid development, garbage-collected languages reduce cognitive load.
 

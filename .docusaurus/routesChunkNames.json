@@ -1,123 +1,191 @@
 {
-  "/__docusaurus/debug-5ff": {
+  "/language-comparison/__docusaurus/debug-a00": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
     }
   },
-  "/__docusaurus/debug/config-5ba": {
+  "/language-comparison/__docusaurus/debug/config-33a": {
     "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
     }
   },
-  "/__docusaurus/debug/content-a2b": {
+  "/language-comparison/__docusaurus/debug/content-0e7": {
     "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
     },
-    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+    "__props": "__props---language-comparison-docusaurus-debug-contenta-48-ab4"
   },
-  "/__docusaurus/debug/globalData-c3c": {
+  "/language-comparison/__docusaurus/debug/globalData-cae": {
     "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
     }
   },
-  "/__docusaurus/debug/metadata-156": {
+  "/language-comparison/__docusaurus/debug/metadata-145": {
     "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
     }
   },
-  "/__docusaurus/debug/registry-88c": {
+  "/language-comparison/__docusaurus/debug/registry-3b8": {
     "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
     }
   },
-  "/__docusaurus/debug/routes-000": {
+  "/language-comparison/__docusaurus/debug/routes-dd1": {
     "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "plugin---docusaurus-debugb-38-ad3"
+      "plugin": "plugin---language-comparison-docusaurus-debugb-38-a28"
     }
   },
-  "/search-5de": {
+  "/language-comparison/search-a7e": {
     "__comp": "__comp---theme-search-page-1-a-4-d6f",
     "__context": {
-      "plugin": "plugin---searchc-14-0ea"
+      "plugin": "plugin---language-comparison-searchc-14-f38"
     }
   },
-  "/docs-848": {
+  "/language-comparison/docs-121": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "plugin---docsaba-d7c"
+      "plugin": "plugin---language-comparison-docsaba-9de"
     }
   },
-  "/docs-fdb": {
+  "/language-comparison/docs-070": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
-    "__props": "__props---docs-005-788"
+    "__props": "__props---language-comparison-docs-005-975"
   },
-  "/docs-54a": {
+  "/language-comparison/docs-d53": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/arrays-f5d": {
+  "/language-comparison/docs/arrays-af7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-arrays-9-fd-c60"
+    "content": "content---language-comparison-docs-arrays-9-fd-720"
   },
-  "/docs/classes-oop-338": {
+  "/language-comparison/docs/classes-oop-61b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-classes-oopd-15-f28"
+    "content": "content---language-comparison-docs-classes-oopd-15-e7e"
   },
-  "/docs/conditionals-9eb": {
+  "/language-comparison/docs/closures-lambdas-99c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-conditionals-1-ce-c94"
+    "content": "content---language-comparison-docs-closures-lambdasb-2-f-5ee"
   },
-  "/docs/crud-3fe": {
+  "/language-comparison/docs/comments-documentation-b15": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-cruda-00-eb4"
+    "content": "content---language-comparison-docs-comments-documentation-6-dc-1d3"
   },
-  "/docs/dates-e35": {
+  "/language-comparison/docs/comparison-matrix-f6b": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dates-9-a-5-063"
+    "content": "content---language-comparison-docs-comparison-matrix-0-e-3-69f"
   },
-  "/docs/error-handling-c9b": {
+  "/language-comparison/docs/concurrency-async-c26": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-error-handling-47-a-51c"
+    "content": "content---language-comparison-docs-concurrency-async-9-c-7-59e"
   },
-  "/docs/functions-2d4": {
+  "/language-comparison/docs/conditionals-3bd": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-functionsd-47-b12"
+    "content": "content---language-comparison-docs-conditionals-1-ce-ade"
   },
-  "/docs/getting-started-2a1": {
+  "/language-comparison/docs/constants-enums-91e": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-getting-startedd-58-f94"
+    "content": "content---language-comparison-docs-constants-enums-503-a13"
   },
-  "/docs/loops-ec0": {
+  "/language-comparison/docs/crud-f65": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-loops-035-608"
+    "content": "content---language-comparison-docs-cruda-00-fc6"
   },
-  "/docs/objects-structs-078": {
+  "/language-comparison/docs/dates-fb7": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-objects-structs-964-157"
+    "content": "content---language-comparison-docs-dates-9-a-5-310"
   },
-  "/docs/regex-782": {
+  "/language-comparison/docs/error-handling-b86": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-regexf-63-1eb"
+    "content": "content---language-comparison-docs-error-handling-47-a-0b4"
   },
-  "/docs/strings-62f": {
+  "/language-comparison/docs/file-io-0be": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-strings-63-a-dd8"
+    "content": "content---language-comparison-docs-file-iod-5-c-b69"
   },
-  "/docs/variables-types-bf2": {
+  "/language-comparison/docs/functions-910": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-variables-types-1-cd-0b5"
+    "content": "content---language-comparison-docs-functionsd-47-a23"
   },
-  "/-e5f": {
+  "/language-comparison/docs/generics-templates-bcd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-generics-templates-505-d67"
+  },
+  "/language-comparison/docs/getting-started-191": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-getting-startedd-58-bba"
+  },
+  "/language-comparison/docs/json-serialization-cfa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-json-serializationd-1-e-d63"
+  },
+  "/language-comparison/docs/loops-117": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-loops-035-2f7"
+  },
+  "/language-comparison/docs/maps-dictionaries-d79": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-maps-dictionaries-14-f-1f9"
+  },
+  "/language-comparison/docs/memory-management-398": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-memory-management-8-be-9c5"
+  },
+  "/language-comparison/docs/modules-imports-b72": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-modules-imports-2-be-bd5"
+  },
+  "/language-comparison/docs/null-safety-90a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-null-safety-74-f-473"
+  },
+  "/language-comparison/docs/objects-structs-7df": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-objects-structs-964-ac7"
+  },
+  "/language-comparison/docs/operators-e16": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-operatorsdbe-e1b"
+  },
+  "/language-comparison/docs/package-management-668": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-package-management-76-d-ec6"
+  },
+  "/language-comparison/docs/pattern-matching-c90": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-pattern-matching-258-2d4"
+  },
+  "/language-comparison/docs/regex-a42": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-regexf-63-030"
+  },
+  "/language-comparison/docs/roadmap-eec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-roadmap-0-df-197"
+  },
+  "/language-comparison/docs/strings-ef5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-strings-63-a-ca5"
+  },
+  "/language-comparison/docs/testing-ddc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-testingfbe-568"
+  },
+  "/language-comparison/docs/variables-types-edb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---language-comparison-docs-variables-types-1-cd-bbc"
+  },
+  "/language-comparison/-f95": {
     "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "plugin---a-74-9d6"
+      "plugin": "plugin---language-comparison-a-74-f41"
     },
-    "config": "config---5-e-9-4f3"
+    "config": "config---language-comparison-5-e-9-e02"
   }
 }

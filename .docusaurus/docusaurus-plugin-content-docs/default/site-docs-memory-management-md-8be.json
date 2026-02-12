@@ -1,0 +1,36 @@
+{
+  "id": "memory-management",
+  "title": "Memory Management",
+  "description": "Memory management -- garbage collection, ownership, and manual memory across 12 languages",
+  "source": "@site/docs/memory-management.md",
+  "sourceDirName": ".",
+  "slug": "/memory-management",
+  "permalink": "/language-comparison/docs/memory-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/memory-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25,
+    "description": "Memory management -- garbage collection, ownership, and manual memory across 12 languages",
+    "keywords": [
+      "memory management",
+      "garbage collection",
+      "ownership",
+      "RAII",
+      "smart pointers",
+      "ARC"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Concurrency & Async",
+    "permalink": "/language-comparison/docs/concurrency-async"
+  },
+  "next": {
+    "title": "Modules & Imports",
+    "permalink": "/language-comparison/docs/modules-imports"
+  }
+}

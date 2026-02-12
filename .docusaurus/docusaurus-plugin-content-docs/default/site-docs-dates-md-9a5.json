@@ -1,24 +1,36 @@
 {
   "id": "dates",
   "title": "Dates",
-  "description": "Date and time manipulation is crucial in most applications. Here's how different languages handle dates, both with built-in features and popular libraries.",
+  "description": "Date and time manipulation, formatting, and timezone handling across 12 languages",
   "source": "@site/docs/dates.md",
   "sourceDirName": ".",
   "slug": "/dates",
-  "permalink": "/docs/dates",
+  "permalink": "/language-comparison/docs/dates",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/dates.md",
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/dates.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 18,
+  "frontMatter": {
+    "sidebar_position": 18,
+    "description": "Date and time manipulation, formatting, and timezone handling across 12 languages",
+    "keywords": [
+      "dates",
+      "time",
+      "datetime",
+      "formatting",
+      "timezone",
+      "calendar"
+    ]
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Regex",
-    "permalink": "/docs/regex"
+    "permalink": "/language-comparison/docs/regex"
   },
   "next": {
-    "title": "CRUD",
-    "permalink": "/docs/crud"
+    "title": "File I/O",
+    "permalink": "/language-comparison/docs/file-io"
   }
 }

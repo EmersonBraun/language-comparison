@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
+import { EbookCta } from '../components/EbookCta';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -17,7 +18,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/getting-started">
+            to="/docs/roadmap">
             Start Learning 🚀
           </Link>
         </div>
@@ -37,14 +38,14 @@ function WhatIsThisProject() {
             </Heading>
             <p className={styles.sectionDescription}>
               This Language Comparison is your comprehensive companion for understanding programming languages. 
-              Each language concept is presented in a structured format with code examples across 11 popular languages: 
+              Each language concept is presented in a structured format with code examples across 12 popular languages: 
               JavaScript, PHP, Rust, Go, Python, Zig, C#, C++, C, Java, Ruby, and Swift. This organization helps you 
               quickly understand syntax differences, best practices, and implementation patterns across different languages.
             </p>
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                to="/docs/getting-started">
+                to="/docs/roadmap">
                 Explore Languages ✨
               </Link>
             </div>
@@ -82,44 +83,8 @@ function HelpImproveGuide() {
             <div className={styles.buttons}>
               <Link
                 className="button button--primary button--lg"
-                to="https://github.com/EmersonBraun/comparison">
+                to="https://github.com/EmersonBraun/language-comparison">
                 Contribute to the Project 🤝
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function FreeEbook() {
-  return (
-    <section className={styles.section}>
-      <div className="container">
-        <div className="row">
-          <div className="col col--8 col--offset-2">
-            <Heading as="h2" className={styles.sectionTitle}>
-              🎯 Tired of failing technical interviews?
-            </Heading>
-            <p className={styles.sectionDescription}>
-              Get my <strong>FREE e-book</strong> "Cracking The Technical Interview" and learn proven strategies 
-              to ace your next technical interview with confidence!
-            </p>
-            <ul className={styles.ebookList}>
-              <li>✅ Master coding and system design questions</li>
-              <li>✅ Learn behavioral interview techniques</li>
-              <li>✅ Discover negotiation strategies</li>
-              <li>✅ Build unshakeable confidence</li>
-            </ul>
-            <p className={styles.trustedBy}>
-              Trusted by 2,000+ developers • No spam, we promise
-            </p>
-            <div className={styles.buttons}>
-              <Link
-                className="button button--primary button--lg"
-                to="#">
-                Get My Free E-book 📚
               </Link>
             </div>
           </div>
@@ -138,7 +103,15 @@ export default function Home(): JSX.Element {
       <main>
         <WhatIsThisProject />
         <HelpImproveGuide />
-        <FreeEbook />
+        <section className={styles.section}>
+          <div className="container">
+            <div className="row">
+              <div className="col col--8 col--offset-2">
+                <EbookCta />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </Layout>
   );

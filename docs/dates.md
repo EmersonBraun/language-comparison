@@ -1,3 +1,9 @@
+---
+sidebar_position: 18
+description: "Date and time manipulation, formatting, and timezone handling across 12 languages"
+keywords: [dates, time, datetime, formatting, timezone, calendar]
+---
+
 # Dates
 
 Date and time manipulation is crucial in most applications. Here's how different languages handle dates, both with built-in features and popular libraries.
@@ -1185,3 +1191,12 @@ let dateInNY = DateInRegion(region: ny)`
   ]}
 />
 
+## Key Takeaways
+
+- **Standard library maturity** — Java's `java.time`, Python's `datetime`, Go's `time`, and C#'s `DateTime` provide rich built-in APIs for parsing, formatting, arithmetic, and comparison. For example, Go's `time.Parse("2006-01-02", "2024-01-15")` and Python's `datetime.strptime("2024-01-15", "%Y-%m-%d")` both parse dates without extra dependencies. C, Zig, and Rust offer only basic timestamps in the standard library; Rust developers typically use the `chrono` crate for full date support. If you need dates out of the box, choose Java, Python, Go, or C#; for systems work, plan on adding a date library.
+
+- **Formatting conventions** — Each language uses different format strings: Go uses `2006-01-02 15:04:05` (reference date as mnemonic); Python uses `%Y-%m-%d %H:%M:%S`; C# uses `yyyy-MM-dd HH:mm:ss`; Java uses `DateTimeFormatter.ofPattern("yyyy-MM-dd")`. Go's approach is memorable because the reference date is literal: month 01, day 02, hour 15, etc. When switching languages, keep a format cheat sheet handy—mixing these up (e.g., `%y` vs `%Y` for year) causes subtle bugs.
+
+- **Timezone handling** — Java's `ZonedDateTime`, Python's `dateutil.tz`, C#'s NodaTime, and Rust's chrono provide robust timezone support. JavaScript's `Date` is UTC-centric: `getHours()` returns local time, but storage is UTC, which can confuse developers. C and C++ require manual handling with `localtime`/`gmtime` or external libraries. For applications that need to display or store times in multiple timezones, prefer Java, Python, or C# with NodaTime; avoid C/C++ unless you're prepared to integrate a timezone library.
+
+- **Popular libraries** — date-fns (JavaScript), Carbon (PHP), chrono (Rust), and NodaTime (C#) extend built-ins with human-readable formatting, natural parsing, and safer timezone handling. For example, Carbon's `$date->diffForHumans()` returns "2 hours ago." Zig and C have minimal ecosystem support—most projects use `std.time` or raw Unix timestamps. If you need advanced date features (e.g., "next Tuesday", "end of month"), choose a language with a mature date library.

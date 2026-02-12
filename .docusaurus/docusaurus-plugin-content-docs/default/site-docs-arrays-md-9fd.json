@@ -1,24 +1,37 @@
 {
   "id": "arrays",
   "title": "Arrays",
-  "description": "Arrays and lists are fundamental data structures. Here's how different languages handle array creation, manipulation, and iteration.",
+  "description": "Arrays, lists, slices, and collection operations compared across 12 programming languages",
   "source": "@site/docs/arrays.md",
   "sourceDirName": ".",
   "slug": "/arrays",
-  "permalink": "/docs/arrays",
+  "permalink": "/language-comparison/docs/arrays",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/arrays.md",
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/arrays.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11,
+    "description": "Arrays, lists, slices, and collection operations compared across 12 programming languages",
+    "keywords": [
+      "arrays",
+      "lists",
+      "slices",
+      "collections",
+      "map",
+      "filter",
+      "reduce"
+    ]
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Functions",
-    "permalink": "/docs/functions"
+    "title": "Closures & Lambdas",
+    "permalink": "/language-comparison/docs/closures-lambdas"
   },
   "next": {
     "title": "Strings",
-    "permalink": "/docs/strings"
+    "permalink": "/language-comparison/docs/strings"
   }
 }

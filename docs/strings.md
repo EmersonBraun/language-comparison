@@ -1,3 +1,8 @@
+---
+sidebar_position: 12
+description: "String manipulation, formatting, interpolation, and encoding across 12 programming languages"
+keywords: [strings, string manipulation, interpolation, formatting, encoding]
+---
 # Strings
 
 String manipulation is essential in programming. Here's how different languages handle string operations, concatenation, and formatting.
@@ -940,5 +945,17 @@ str.count == 0  // false`
     }
   ]}
 />
+
+## Key Takeaways
+
+- **Immutability** -- Strings are immutable in Java, Python, JavaScript, C#, and Swift—each "modification" creates a new string. C and C++ use mutable `char` arrays; Rust offers both `&str` (immutable slice) and `String` (owned, mutable via methods like `push_str`). Immutability simplifies reasoning about concurrency and prevents accidental aliasing bugs. Choose mutable strings (C/C++) only when you need in-place modification for performance-critical code; otherwise, immutability is safer.
+
+- **Encoding and Unicode** -- Go and Rust treat strings as UTF-8 bytes; accessing a "character" in Go requires `[]rune(str)` because `str[0]` returns a byte. Swift uses grapheme clusters for correct handling of emoji and combining characters. C uses null-terminated byte arrays with no encoding guarantee. Python 3 strings are Unicode by default. For internationalized apps, prefer Swift, Python, or Rust; for ASCII-only or low-level work, C/Go byte access is fine.
+
+- **String interpolation** -- JavaScript uses template literals (`` `${name} is ${age}` ``); Python uses f-strings (`f"{name} is {age}"`); C# uses `$"{name} is {age}"`; Ruby uses `"#{name} is #{age}"`. C relies on `sprintf` or manual concatenation. Interpolation improves readability and avoids injection bugs from string concatenation. Choose a language with first-class interpolation for UI and logging code.
+
+- **Length semantics** -- `len(str)` in Go returns bytes; Swift's `str.count` returns characters (grapheme clusters). Rust's `str.len()` is bytes; use `str.chars().count()` for characters. Python's `len(str)` counts Unicode code points. This matters for validation (e.g., "max 10 characters") and truncation. For user-facing length limits, use character-based APIs (Swift, Python); for storage or network, byte length is correct.
+
+- **Common operations** -- Most languages provide `split`, `replace`, `trim`, `upper`/`lower`, and `contains`. Go uses package functions (`strings.Split`, `strings.Replace`); Python and JavaScript use methods (`str.split()`, `str.replace()`). Zig and C require manual loops or external libraries. If you do heavy string processing, prefer Python, JavaScript, or C# for rich built-in APIs; for embedded or systems code, expect to implement or import utilities.
 
 

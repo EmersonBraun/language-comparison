@@ -1,24 +1,36 @@
 {
   "id": "loops",
   "title": "Loops",
-  "description": "Loops allow you to execute code repeatedly. Here's how different languages handle for loops, while loops, and iteration.",
+  "description": "For loops, while loops, iterators, and range-based loops compared across 12 languages",
   "source": "@site/docs/loops.md",
   "sourceDirName": ".",
   "slug": "/loops",
-  "permalink": "/docs/loops",
+  "permalink": "/language-comparison/docs/loops",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/EmersonBraun/comparison/tree/main/docs/loops.md",
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/loops.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "description": "For loops, while loops, iterators, and range-based loops compared across 12 languages",
+    "keywords": [
+      "loops",
+      "for loop",
+      "while loop",
+      "iteration",
+      "iterators",
+      "range"
+    ]
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Conditionals",
-    "permalink": "/docs/conditionals"
+    "permalink": "/language-comparison/docs/conditionals"
   },
   "next": {
-    "title": "Functions",
-    "permalink": "/docs/functions"
+    "title": "Pattern Matching",
+    "permalink": "/language-comparison/docs/pattern-matching"
   }
 }

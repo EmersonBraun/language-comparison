@@ -1,3 +1,9 @@
+---
+sidebar_position: 7
+description: "For loops, while loops, iterators, and range-based loops compared across 12 languages"
+keywords: [loops, for loop, while loop, iteration, iterators, range]
+---
+
 # Loops
 
 Loops allow you to execute code repeatedly. Here's how different languages handle for loops, while loops, and iteration.
@@ -446,5 +452,11 @@ repeat {
     }
   ]}
 />
+
+## Key Takeaways
+
+- **For loop styles** -- C-style `for (i=0; i<n; i++)` in C/C++/Java/JavaScript; range-based in Python (`for i in range(5)`), Rust (`0..5`), Swift (`0..<5`); Go uses `for` for both.
+- **Range-based iteration** -- `for...of` (JavaScript), `foreach` (PHP, C#), `for...in`/`enumerate` (Python), `range` (Go). Zig uses `for (arr) |item|`.
+- **While and iteration** -- Go has no `while` keyword (use `for condition`); Ruby adds `until`; Rust offers `loop` with `break`; Swift uses `repeat-while` instead of do-while.
 
 

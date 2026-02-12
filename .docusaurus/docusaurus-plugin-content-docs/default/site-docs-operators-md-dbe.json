@@ -1,0 +1,36 @@
+{
+  "id": "operators",
+  "title": "Operators",
+  "description": "Arithmetic, comparison, logical, and bitwise operators compared across 12 languages",
+  "source": "@site/docs/operators.md",
+  "sourceDirName": ".",
+  "slug": "/operators",
+  "permalink": "/language-comparison/docs/operators",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/operators.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "description": "Arithmetic, comparison, logical, and bitwise operators compared across 12 languages",
+    "keywords": [
+      "operators",
+      "arithmetic",
+      "comparison",
+      "logical",
+      "bitwise",
+      "null coalescing"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Variables & Types",
+    "permalink": "/language-comparison/docs/variables-types"
+  },
+  "next": {
+    "title": "Constants & Enums",
+    "permalink": "/language-comparison/docs/constants-enums"
+  }
+}

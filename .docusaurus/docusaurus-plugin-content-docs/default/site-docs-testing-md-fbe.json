@@ -1,0 +1,32 @@
+{
+  "id": "testing",
+  "title": "Testing",
+  "description": "Unit testing frameworks, assertions, and mocking compared across 12 programming languages",
+  "source": "@site/docs/testing.md",
+  "sourceDirName": ".",
+  "slug": "/testing",
+  "permalink": "/language-comparison/docs/testing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/testing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 28,
+  "frontMatter": {
+    "sidebar_position": 28,
+    "description": "Unit testing frameworks, assertions, and mocking compared across 12 programming languages",
+    "keywords": [
+      "testing",
+      "unit tests",
+      "assertions",
+      "mocking",
+      "test frameworks",
+      "TDD"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Package Management",
+    "permalink": "/language-comparison/docs/package-management"
+  }
+}

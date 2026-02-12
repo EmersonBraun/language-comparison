@@ -1,0 +1,27 @@
+{
+  "id": "comparison-matrix",
+  "title": "Language Comparison Matrix",
+  "description": "A quick-reference table comparing features, capabilities, and characteristics across all 12 languages.",
+  "source": "@site/docs/comparison-matrix.md",
+  "sourceDirName": ".",
+  "slug": "/comparison-matrix",
+  "permalink": "/language-comparison/docs/comparison-matrix",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/EmersonBraun/language-comparison/tree/main/docs/comparison-matrix.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How to Use This Guide",
+    "permalink": "/language-comparison/docs/roadmap"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/language-comparison/docs/getting-started"
+  }
+}

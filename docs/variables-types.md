@@ -1,3 +1,9 @@
+---
+sidebar_position: 3
+description: "Variables, data types, and type systems compared across 12 programming languages"
+keywords: [variables, types, data types, typing, static typing, dynamic typing]
+---
+
 # Variables & Types
 
 Different languages handle variable declaration and typing in various ways. Let's compare how each language declares variables and handles types.
@@ -669,4 +675,13 @@ if let num = Int("42") {          // safe unwrap
   ]}
 />
 
+## Key Takeaways
+
+- **Static vs dynamic typing** -- Static languages (Rust, Go, Java, C#, Swift) enforce types at compile time, so type errors are caught before the program runs. Dynamic languages (JavaScript, Python, PHP, Ruby) allow variables to change type at runtime: `let x = 42; x = "hello"` is valid in JavaScript. Static typing gives stronger guarantees and better tooling; dynamic typing speeds up prototyping. For large codebases or team projects, prefer static typing; for quick scripts or exploratory work, dynamic typing can be more flexible.
+
+- **Type inference** -- Many static languages infer types so you write less boilerplate. C# and Java 10+ use `var`; C++ uses `auto`; Rust and Swift use `let`; Go uses `:=` for short declaration. For example, `let x = 42` in Rust infers `i32`, and `name := "John"` in Go infers `string`. Zig and C generally require explicit types. Use inference where it improves readability, but add explicit types when it clarifies intent or when inference produces surprising results.
+
+- **Type safety and conversions** -- Rust and Go avoid implicit conversions; mixing `i32` and `f64` in arithmetic requires explicit casts. JavaScript and PHP perform type juggling: `"5" + 3` yields `"53"` in JavaScript (string concatenation) but `8` in PHP (numeric conversion). C, C++, and Java allow widening conversions (e.g., `int` to `long`) implicitly. Prefer languages with strict conversion rules for robustness; be cautious with implicit conversions in JavaScript and PHP to avoid subtle bugs.
+
+- **Variable declaration styles** -- JavaScript uses `let` and `const`; PHP uses `$variable`; Go uses `var` or `:=`; Python and Ruby use bare names. Rust distinguishes `let` (immutable) from `let mut` (mutable); Zig uses `const` and `var`. Swift uses `let` for constants and `var` for variables. Matching your mental model to the language's declaration style helps avoid mistakes—for example, forgetting that JavaScript `const` only prevents reassignment, not mutation of objects.
 
